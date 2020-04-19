@@ -63,6 +63,9 @@
 	font-family: 'Garamond';
 	margin-top: -1vh;
 	font-size:15px;
+	width:407px;
+	max-width:407px;
+	min-width:407px;
 }
 
 .QuarkBottomStrip{
