@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="stylesDesktop.css">
 <style>
@@ -13,32 +16,6 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
-}
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -52,7 +29,7 @@ body, html {
   }
 }
 </style>
-<body>
+<body class="w3-white">
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -60,15 +37,18 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item"> <img id="QuarksLogoHome" src="images/QuarksLogoNoBG.png"> </a> 
+    <a href="#" class="w3-bar-item" id="nameQuarksHome" class="w3-black"> Quarks </a>
+    <div style="margin-top:3vh">
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="color:red"> Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"> Quarks</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">Subscribe</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Login</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
-    <a href="#" class="w3-bar-item"> <img id="QuarksLogoHome" src="images/QuarksLogoNoBG.png"> </a> 
-  <a href="#" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
+  </div>
+
   </div>
 
   <!-- Navbar on small screens -->
@@ -77,28 +57,21 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-    <a href="#" class="w3-bar-item"> <img id="QuarksLogoHome" src="images/QuarksLogoNoBG.png"> </a> 
-  <a href="#" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
   </div>
 </div>
 
 
 <div id="div1Home"> 
-  <p id="joinQuarksLine">
-  Join Quarks and re-fuel your curiosity. We bring to you quirky answers to some of the most interesting questions. Our content in simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
+  <img src="images/homeAmoeba1.png" id="homeAmoeba1">
+  <p id="joinQuoteHome"> Join Quarks <br>And Refuel Your Curiosity </p>
+  <p id="joinQuarksLineHome">
+  We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
 </p>
+<a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-black w3-round">Explore Quarks</p></a>
 </div>
 
  
 <script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
