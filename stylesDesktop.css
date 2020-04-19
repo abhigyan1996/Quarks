@@ -1,23 +1,21 @@
+
+
 #QuarksLogo{
-	position: absolute;
-	margin-left: 42vw;
+	margin-left: 40vw;
 	height: 60px;
 	width: 60px;
-	margin-top: 3vh;
 }
 
 #nameQuarks{
-	position:absolute;
-	margin-left: 47vw;
+	position: absolute;
+	margin-left: 45vw;
 	font-family: 'Raleway';
 	font-size: 40px;
-	margin-top: 3vh;
+	text-decoration: none;
 }
 
 .Quarks{
-	position:absolute;
 	margin-top: 15vh;
-	background: #696969;
 }
 
 .try{
