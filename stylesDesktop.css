@@ -29,10 +29,12 @@
   -webkit-transition: .3s ease;
   transition: .3s ease;
   height:560px;
-  width:30vw;
+  width:407px;
   margin-top: 10vh;
   border-radius: 10px;
-  background: white
+  background: white;
+  max-height: 560px;
+  min-height: 560px;
 }
 
 .cardLeft{
@@ -51,7 +53,9 @@
 
 .quarkImages{
 	height:250px;
-	width: 30vw;
+	max-height:250px;
+	min-height:250px;
+  	width:407px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
@@ -72,7 +76,7 @@
 .QuarkBottomStrip{
 	background: #000000;
 	margin-top: -5px;
-	height:45px;
+	height:46px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
