@@ -28,6 +28,8 @@
   transition: .3s ease;
   height:560px;
   width:407px;
+  max-width:407px;
+  min-width:407px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
