@@ -63,7 +63,7 @@
 .writings{
 	font-family: 'Garamond';
 	margin-top: -2vh;
-	font-size:15px;
+	font-size:15.3px;
 	height: 200px;
 }
 
@@ -100,4 +100,24 @@
 
 #QuarksRow2{
 	margin-top: 115vh;
+}
+
+/*home page styles */
+#QuarksLogoHome{
+	margin-left: 8vw;
+	height: 60px;
+	width: 60px;
+}
+
+#div1Home{
+	position: absolute;
+	background: black;
+	height: 200vh;
+	max-height: 200vh;
+	min-height: 200vh;
+}
+
+
+#joinQuarksLine{
+	margin-top: 40vh;
 }
