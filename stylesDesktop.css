@@ -98,10 +98,6 @@
 	font-size:10px;
 }
 
-#QuarksRow2{
-	margin-top: 115vh;
-}
-
 /*home page styles */
 #QuarksLogoHome{
 	margin-left: 8vw;
@@ -109,15 +105,45 @@
 	width: 60px;
 }
 
-#div1Home{
-	position: absolute;
-	background: black;
-	height: 200vh;
-	max-height: 200vh;
-	min-height: 200vh;
+#nameQuarksHome{
+	font-family: 'Raleway';
+	font-size: 40px;
+	text-decoration: none;
+	margin-left: -1vw;
+	padding-right: 40vw;
 }
 
+#div1Home{
+	background: white;
+	height: 82vh;
+	max-height: 82vh;
+	min-height: 82vh;
+}
 
-#joinQuarksLine{
-	margin-top: 40vh;
+#joinQuoteHome{
+	margin-top: 35vh;
+	margin-left: 10vw;
+	font-family: 'Helvetica';
+	font-size: 40px;
+	font-weight: 900; 
+}
+
+#joinQuarksLineHome{
+	margin-left: 10vw;
+	font-family: 'Helvetica';
+	font-size: 18px;
+	width: 40vw; 
+	margin-top: -5vh;
+}
+
+#homeAmoeba1{
+	position: absolute;
+	margin-left: 60vw;
+	height: 500px;
+	width: 500px
+	margin-top:200vh;
+}
+
+#exploreQuarksHome{
+	margin-left: 10vw;
 }
