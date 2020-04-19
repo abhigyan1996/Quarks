@@ -1,5 +1,3 @@
-
-
 #QuarksLogo{
 	margin-left: 40vw;
 	height: 60px;
@@ -28,7 +26,7 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:90vh;
+  height:85vh;
   width:30vw;
   margin-top: 10vh;
   border-radius: 10px;
@@ -50,7 +48,7 @@
 }
 
 .quarkImages{
-	height:30vh;
+	height:40vh;
 	width: 30vw;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -58,9 +56,14 @@
 
 .QuarkTitle{
 	font-weight: 900;
-	font-style: italic;
+	font-family: 'Garamond';
 	font-size:20px;
 	color: black;
+}
+
+.writings{
+	font-family: 'Garamond';
+	margin-top: -1vh;
 }
 
 #QuarksRow2{
