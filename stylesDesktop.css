@@ -68,16 +68,16 @@
 }
 
 .QuarkBottomStrip{
-	background: #000000;
-	margin-top: 10.5px;
+	background: #000000;	
+	margin-top: 11px;
 	height:46px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
-.SubjectTag{
+.ScienceTag{
 	margin-top: -70px;
-	margin-left: 22.75vw;
+	margin-left: 310px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-left:10px;
