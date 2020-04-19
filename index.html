@@ -5,8 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="stylesDesktop.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
@@ -26,23 +30,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
+	<a href="#" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
   </div>
 </div>
-
-
-
-
-
 
 <div id="QuarksRow1" class="Quarks w3-row">
   <div class="w3-container w3-half">
   	<div class="w3-card QuarkCards cardLeft">
   		<img class="quarkImages" src="images/quark1.jpg">
-  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue during the day?</p>
+  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue?</p>
    		<div class="w3-container w3-white">
    	    <p class="writings">Sunlight is made of different colours of light which have different wavelengths. The atmosphere of the earth is composed of very small molecules of Nitrogen, Oxygen, Water Vapour, Carbon Dioxide, Argon and traces of other gases. These molecules scatter the shorter and higher-energy wavelengths of light more efficiently than other wavelengths. Though violet light is scattered more than blue light, our eyes respond more strongly to blue light and hence the sky appears blue.</p>    
     	</div>
@@ -51,26 +48,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-container w3-half">
   	<div class="w3-card QuarkCards cardRight">
   		<img class="quarkImages" src="images/quark1.jpg">
-  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue during the day?</p>
+  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue?</p>
    		<div class="w3-container w3-white">
    	    <p class="writings">Sunlight is made of different colours of light which have different wavelengths. The atmosphere of the earth is composed of very small molecules of Nitrogen, Oxygen, Water Vapour, Carbon Dioxide, Argon and traces of other gases. These molecules scatter the shorter and higher-energy wavelengths of light more efficiently than other wavelengths. Though violet light is scattered more than blue light, our eyes respond more strongly to blue light and hence the sky appears blue.</p>    
     	</div>
   	</div>
   </div>
 
-  <div class="w3-container w3-half">
+  <div class="w3-container w3-half" data-aos="fade-up">
  	<div class="w3-card QuarkCards cardLeft">
   		<img class="quarkImages" src="images/quark1.jpg">
-  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue during the day?</p>
+  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear?</p>
    		<div class="w3-container w3-white">
    	    <p class="writings">Sunlight is made of different colours of light which have different wavelengths. The atmosphere of the earth is composed of very small molecules of Nitrogen, Oxygen, Water Vapour, Carbon Dioxide, Argon and traces of other gases. These molecules scatter the shorter and higher-energy wavelengths of light more efficiently than other wavelengths. Though violet light is scattered more than blue light, our eyes respond more strongly to blue light and hence the sky appears blue.</p>    
     	</div>
   	</div>
 	  </div>
-	  <div class="w3-container w3-half">
+	  <div class="w3-container w3-half" data-aos="fade-up">
 	  	<div class="w3-card QuarkCards cardRight">
 	  		<img class="quarkImages" src="images/quark1.jpg">
-	  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue during the day?</p>
+	  		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue?</p>
 	   		<div class="w3-container w3-white">
 	   	    <p class="writings">Sunlight is made of different colours of light which have different wavelengths. The atmosphere of the earth is composed of very small molecules of Nitrogen, Oxygen, Water Vapour, Carbon Dioxide, Argon and traces of other gases. These molecules scatter the shorter and higher-energy wavelengths of light more efficiently than other wavelengths. Though violet light is scattered more than blue light, our eyes respond more strongly to blue light and hence the sky appears blue.</p>  
 	    </div>
@@ -102,7 +99,9 @@ function toggleFunction() {
 }
 </script>
 
-
+<script>
+  AOS.init();
+</script>
 
 
 </body>
