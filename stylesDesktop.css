@@ -16,9 +16,12 @@
 
 .Quarks{
 	position:absolute;
-	margin-left: 5vw;
-	margin-right: 5vw;
 	margin-top: 15vh;
+	background: #696969;
+}
+
+.try{
+	background: grey;
 }
 
 .QuarkCards {
@@ -28,7 +31,18 @@
   -webkit-transition: .3s ease;
   transition: .3s ease;
   height:90vh;
+  width:30vw;
+  margin-top: 10vh;
   border-radius: 10px;
+  background: white
+}
+
+.cardLeft{
+	margin-left: 15vw;
+}
+
+.cardRight{
+	margin-right: 15vw;
 }
 
 .QuarkCards:hover{
@@ -39,14 +53,16 @@
 
 .quarkImages{
 	height:30vh;
-	width: 20vw;
-	margin-left: 3.5vw;
+	width: 30vw;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .QuarkTitle{
 	font-weight: 900;
 	font-style: italic;
 	font-size:20px;
+	color: black;
 }
 
 #QuarksRow2{
