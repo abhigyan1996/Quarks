@@ -1,3 +1,5 @@
+
+
 #QuarksLogo{
 	margin-left: 40vw;
 	height: 60px;
@@ -57,13 +59,44 @@
 .QuarkTitle{
 	font-weight: 900;
 	font-family: 'Garamond';
-	font-size:20px;
+	font-size:18px;
 	color: black;
 }
 
 .writings{
 	font-family: 'Garamond';
 	margin-top: -1vh;
+	font-size:15px;
+}
+
+.QuarkBottomStrip{
+	background: #000000;
+	height:7vh;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.SubjectTag{
+	margin-top: -11vh;
+	margin-left: 22.75vw;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.AuthorName{
+	color:white;
+	margin-top: -9vh;
+	margin-left: 1.25vw;
+	font-size:10px;
+}
+
+.DateOfQuark{
+	color:white;
+	margin-top: 0vh;
+	margin-left: 1.25vw;
+	font-size:10px;
 }
 
 #QuarksRow2{
