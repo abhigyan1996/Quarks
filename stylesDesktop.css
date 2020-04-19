@@ -1,5 +1,3 @@
-
-
 #QuarksLogo{
 	margin-left: 40vw;
 	height: 60px;
@@ -16,10 +14,8 @@
 
 .Quarks{
 	margin-top: 15vh;
-}
-
-.try{
-	background: grey;
+	margin-left: 11vw; 
+	width: 80vw;
 }
 
 .QuarkCards {
@@ -35,14 +31,6 @@
   background: white;
   max-height: 560px;
   min-height: 560px;
-}
-
-.cardLeft{
-	margin-left: 15vw;
-}
-
-.cardRight{
-	margin-right: 15vw;
 }
 
 .QuarkCards:hover{
