@@ -15,6 +15,9 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
+<script>
+document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=horizontal&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
+</script>
 
 <body class="w3-white" onclick="sortList()">
 <!-- Navbar (sit on top) -->
@@ -23,7 +26,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
     </a>
     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
-	<a href="#" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
+	<a href="homePage.html" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
     </a>
     
   </div>
@@ -31,12 +34,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
      <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
-	<a href="homePage.html" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
+	<a href="#" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
   </div>
 </div>
 
 <ul id="QuarksList" class="Quarks w3-row" style="list-style-type:none;">
-  <li class="w3-container w3-half quarkHalf" id="2">
+  <a href="LightningCard"><li  style="text-decoration: none" class="w3-container w3-half quarkHalf" id="2">
 	  	<div class="w3-card QuarkCards cardLeft">
 	  		<img class="quarkImages" src="images/quark2.jpg">
 	  		<p class="w3-center QuarkTitle" id="title1">What causes Lightning?</p>
@@ -48,7 +51,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 	  		<div class="AuthorName"> Quark by Angshuman </div>
 		  	<div class="DateOfQuark"> 19 April, 2020</div>
 	  	</div>
-  </li>
+  </li></a>
 
   <li class="w3-container w3-half quarkHalf" id="1">
   	<div class="w3-card QuarkCards cardRight">
