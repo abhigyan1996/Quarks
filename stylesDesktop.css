@@ -1,5 +1,4 @@
 
-
 #QuarksLogo{
 	margin-left: 40vw;
 	height: 60px;
@@ -98,6 +97,12 @@
 	font-size:10px;
 }
 
+#ShareFb{
+	position: absolute;
+	margin-top: -27.5px;
+	margin-left: 165px;
+}
+
 /*home page styles */
 #QuarksLogoHome{
 	margin-left: 8vw;
@@ -110,7 +115,6 @@
 	font-size: 40px;
 	text-decoration: none;
 	margin-left: -1vw;
-	padding-right: 40vw;
 }
 
 #div1Home{
@@ -145,4 +149,17 @@
 
 #exploreQuarksHome{
 	margin-left: 10vw;
+}
+
+.navItems{
+	text-decoration: none;
+}
+
+#navItem1{
+	color:red;
+	margin-left: 40vw
+}
+
+.navItems:hover {
+	color:red;
 }
