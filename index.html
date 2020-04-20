@@ -15,9 +15,16 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
-<script>
-document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=horizontal&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
-</script>
+
+<!-- Facebook Share -->
+  <script>
+  	(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 <body class="w3-white" onclick="sortList()">
 <!-- Navbar (sit on top) -->
@@ -26,7 +33,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ho
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
     </a>
     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
-	<a href="homePage.html" class="w3-bar-item"  id="nameQuarks"> Quarks </a>
+	<a href="homePage.html" class="w3-bar-item" id="nameQuarks"> Quarks </a>
     </a>
     
   </div>
@@ -94,6 +101,8 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ho
 	  </div>
 	 </li>	
 </ul>
+
+<div class="fb-share-button" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fabhigyan1996.github.io%2FQuarks%2Findex.html%23LightningCard&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
 <script>
 
