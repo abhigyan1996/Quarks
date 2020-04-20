@@ -26,7 +26,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-<body class="w3-white" onclick="sortList()">
+<!-- Facebook Share -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+
+<body class="w3-white">
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
@@ -57,7 +60,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 	    	<div class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div>
 	  		<div class="AuthorName"> Quark by Angshuman </div>
 		  	<div class="DateOfQuark"> 19 April, 2020</div>
-		  	<div id="ShareFb" class="fb-share-button" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fabhigyan1996.github.io%2FQuarks%2Findex.html%23LightningCard&amp;src=sdkpreparse" class=" fb-xfbml-parse-ignore">Share</a></div>
+		  	<div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  
 	  	</div>
   </li>
 
@@ -66,13 +69,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   		<img class="quarkImages" src="images/quark1.jpg">
   		<p class="w3-center QuarkTitle" id="title1">Why does the sky appear blue?</p>
    		<div class="w3-container w3-white">
+   	    
    	    <p class="writings">Sunlight is made of different colours of light which have different wavelengths. The atmosphere of the earth is composed of very small molecules of Nitrogen, Oxygen, Water Vapour, Carbon Dioxide, Argon and traces of other gases. These molecules scatter the shorter and higher-energy wavelengths of light more efficiently than other wavelengths. Though violet light is scattered more than blue light, our eyes respond more strongly to blue light and hence the sky appears blue.</p>    
     	</div>
     	<div class="QuarkBottomStrip"> </div>
     	<div class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div>
     	<div class="AuthorName"> Quark by Angshuman </div>
 	  	<div class="DateOfQuark"> 18 April, 2020</div>
-	  	<div id="ShareFb" class="fb-share-button FbShareQuark" data-href="https://abhigyan1996.github.io/Quarks/index.html#SkyBlueCard" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fabhigyan1996.github.io%2FQuarks%2Findex.html%23SkyBlueCard&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+		<div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#SkyBlueCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  	
   	</div>
   </li>
 
@@ -103,7 +107,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 	  </div>
 	 </li>	
 </ul>
-
 <script>
 
 // Change style of navbar on scroll
