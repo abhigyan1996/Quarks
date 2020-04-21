@@ -10,11 +10,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="stylesDesktop.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+ <meta property="og:url"           content="https://abhigyan1996.github.io/Quarks/homePage.html" />
  <meta property="og:type"          content="website" />
  <meta property="og:title"         content="Join Quarks" />
  <meta property="og:description"   content="Refuel Your Curiosity" />
  <meta property="og:image"         content="images/homeAmoeba.jpg" />
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -40,10 +45,10 @@ body, html {
 document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=horizontal&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
 </script>
 
-<script>
+<!-- <script>
 document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=vertical&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
 </script>
-
+ -->
 
 <body class="w3-white">
 
@@ -78,29 +83,17 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
 
 <div id="div1Home"> 
-  <img src="images/homeAmoeba.jpg" id="homeAmoeba1">
+  <img src="images/homeAmoebaOne.jpg" class="w3-animate-right" id="homeAmoeba1">
   <p id="joinQuoteHome"> Join Quarks <br>And Refuel Your Curiosity </p>
   <p id="joinQuarksLineHome">
   We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
 </p>
 <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-black w3-round">Explore Quarks</p></a>
 </div>
+  <img src="images/homeAmoebaTwo.png" data-aos="fade-left"  id="homeAmoeba2">
 
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
 
-<script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-  <!-- Your share button code -->
-  
-
+</div>
 
 <script>
 // Change style of navbar on scroll
@@ -123,6 +116,11 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+</script>
+
+
+<script>
+  AOS.init();
 </script>
 
 </body>
