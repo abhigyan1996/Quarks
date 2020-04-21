@@ -118,9 +118,6 @@
 
 #div1Home{
 	background: white;
-	height: 82vh;
-	max-height: 82vh;
-	min-height: 82vh;
 }
 
 #joinQuoteHome{
@@ -129,6 +126,7 @@
 	font-family: 'Helvetica';
 	font-size: 40px;
 	font-weight: 900; 
+	width:40vw;
 }
 
 #joinQuarksLineHome{
@@ -142,9 +140,17 @@
 #homeAmoeba1{
 	position: absolute;
 	margin-left: 50vw;
-	height: 500px;
-	width: 50vw;
+	height: 370px;
+	width: 48vw;
 	margin-top: -15vh;
+}
+
+#homeAmoeba2{
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 15vh;
+	height: 470px;
+	width: 45vw;
 }
 
 #exploreQuarksHome{
