@@ -154,6 +154,10 @@
 }
 
 #exploreQuarksHome{
+	margin-left: 2vw;
+}
+
+#subscribeQuarksHome{
 	margin-left: 10vw;
 }
 
@@ -169,3 +173,5 @@
 .navItems:hover {
 	color:red;
 }
+
+
