@@ -19,7 +19,8 @@
  <meta property="og:image"         content="images/homeAmoeba.jpg" />
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -84,15 +85,22 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
 <div id="div1Home"> 
   <img src="images/homeAmoebaOne.jpg" class="w3-animate-right" id="homeAmoeba1">
-  <p id="joinQuoteHome"> Refuel Your Curiosity <br>In just <span style="color:purple">20 Seconds!!!</span> </p>
-  <p id="joinQuarksLineHome">
-  We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
+  <div class="anim write1">
+    <p class="scroll2Home" id="joinQuoteHome"> Refuel Your Curiosity <br>In just <span style="color:purple">20 Seconds!!!</span> </p>
+    <p id="joinQuarksLineHome">
+    We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
+    </p>
+    </div>
+    <div class="anim write2">
+    <a href="index.html"> <p id="subscribeQuarksHome" class="w3-button w3-black w3-hover-purple w3-round">Subscribe Quarks</p></a>
+    <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-black w3-round">Explore Quarks</p></a>
+  </div>
+<p class="anim write3" id="WhyQuarksHome">
+ What's so special about Quarks?
 </p>
-<a href="index.html"> <p id="subscribeQuarksHome" class="w3-button w3-purple w3-hover-black w3-round">Subscribe Quarks</p></a>
-<a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-black w3-round">Explore Quarks</p></a>
 
 </div>
-  <img src="images/homeAmoebaTwo.png" data-aos="fade-left"  id="homeAmoeba2">
+  <img src="images/homeAmoebaTwo.png" data-aos="fade-left" id="homeAmoeba2">
 
 
 </div>
@@ -124,6 +132,9 @@ function toggleFunction() {
 <script>
   AOS.init();
 </script>
+
+
+    <script  src="animateScroll.js"></script>
 
 </body>
 </html>
