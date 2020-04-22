@@ -176,10 +176,64 @@
 
 #WhyQuarksHome{
 	position:absolute;
-	margin-top: 25vh;
-	margin-left: 52vw;
+	margin-top: 10vh;
+	margin-left: 35vw;
 	font-family: 'Helvetica';
 	font-size: 30px;
 	font-weight: 900; 
 	width:40vw;
+}
+
+#ingredientsHome{
+	position:absolute;
+	margin-top: 25vh;
+	margin-left: 52vw;
+	font-family: 'Helvetica';
+	font-size: 15px; 
+	width:40vw;
+}
+
+.WhyQuarkCards{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  height:650px;
+  width:300px;
+  max-width:400px;
+  min-width:300px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  background: white;
+  max-height: 450px;
+  min-height: 450px;
+}
+
+.WhyQuarkCards:hover{
+ -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.WhyQuarks{
+	margin-right: 5vw;
+	margin-top: 15vh;
+	margin-left: 10vw;
+}
+
+.whyQuarkImages{
+	height:200px;
+	max-height:200px;
+	min-height:200px;
+  	width:300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.WhyQwriting{
+	font-family: 'Garamond';
+	margin-top: -2vh;
+	font-size:15.3px;
+	height: 150px;
 }
