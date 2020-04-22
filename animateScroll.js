@@ -131,7 +131,7 @@ var _positions = [
       percent: 0, x: 0, y: 0
     },
     end: {
-      percent: 0.8, x: 0, y: -0.25
+      percent: 0.8, x: 0, y: -0.27
     }
   },
   {
@@ -140,7 +140,7 @@ var _positions = [
       percent: 0.05, x: 0, y: 0
     },
     end: {
-      percent: 0.1, x: 0.03, y: 0
+      percent: 0.1, x: 0, y: 0.01
     }
   },
   {
