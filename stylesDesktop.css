@@ -8,7 +8,7 @@
 #nameQuarks{
 	position: absolute;
 	margin-left: 45vw;
-	font-family: 'Raleway';
+	font-family: 'Helvetica';
 	font-size: 40px;
 	text-decoration: none;
 }
@@ -25,15 +25,15 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:560px;
+  height:555px;
   width:407px;
   max-width:407px;
   min-width:407px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
-  max-height: 560px;
-  min-height: 560px;
+  max-height: 555px;
+  min-height: 555px;
 }
 
 .QuarkCards:hover{
@@ -60,9 +60,9 @@
 }
 
 .writings{
-	font-family: 'Garamond';
+	font-family: 'Quicksand';
 	margin-top: -2vh;
-	font-size:15.3px;
+	font-size:15px;
 	height: 200px;
 }
 
@@ -131,7 +131,7 @@
 
 #joinQuarksLineHome{
 	margin-left: 10vw;
-	font-family: 'Helvetica';
+	font-family: 'Charter';
 	font-size: 18px;
 	width: 40vw; 
 	margin-top: -5vh;
@@ -199,15 +199,15 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:650px;
+  height:460px;
   width:300px;
   max-width:400px;
   min-width:300px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
-  max-height: 450px;
-  min-height: 450px;
+  max-height: 460px;
+  min-height: 460px;
   margin-left: 2vw;
 }
 
@@ -233,8 +233,35 @@
 }
 
 .WhyQwriting{
-	font-family: 'Garamond';
+	font-family: 'Charter';
 	margin-top: -2vh;
 	font-size:15.3px;
 	height: 150px;
+}
+
+.count1{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 30vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.count2{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 45vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.count3{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 60vw;
+	font-size:25px;
+	font-weight: 900;
 }
