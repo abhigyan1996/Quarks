@@ -8,7 +8,7 @@
 #nameQuarks{
 	position: absolute;
 	margin-left: 45vw;
-	font-family: 'Heveltica';
+	font-family: 'Raleway';
 	font-size: 40px;
 	text-decoration: none;
 }
@@ -110,7 +110,7 @@
 }
 
 #nameQuarksHome{
-	font-family: 'Heveltica';
+	font-family: 'Helvetica';
 	font-size: 40px;
 	text-decoration: none;
 	margin-left: -1vw;
@@ -174,4 +174,12 @@
 	color:red;
 }
 
-
+#WhyQuarksHome{
+	position:absolute;
+	margin-top: 25vh;
+	margin-left: 60vw;
+	font-family: 'Helvetica';
+	font-size: 30px;
+	font-weight: 900; 
+	width:40vw;
+}
