@@ -176,7 +176,7 @@
 
 #WhyQuarksHome{
 	position:absolute;
-	margin-top: 10vh;
+	margin-top: 35vh;
 	margin-left: 35vw;
 	font-family: 'Helvetica';
 	font-size: 30px;
@@ -208,6 +208,7 @@
   background: white;
   max-height: 450px;
   min-height: 450px;
+  margin-left: 2vw;
 }
 
 .WhyQuarkCards:hover{
@@ -217,9 +218,9 @@
 }
 
 .WhyQuarks{
-	margin-right: 5vw;
-	margin-top: 15vh;
-	margin-left: 10vw;
+	margin-top: 25vh;
+	margin-left: 5vw;
+	width: 85vw;
 }
 
 .whyQuarkImages{
