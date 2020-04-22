@@ -8,7 +8,7 @@
 #nameQuarks{
 	position: absolute;
 	margin-left: 45vw;
-	font-family: 'Helvetica';
+	font-family: 'Quicksand';
 	font-size: 40px;
 	text-decoration: none;
 }
@@ -60,9 +60,9 @@
 }
 
 .writings{
-	font-family: 'Charter';
+	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
-	font-size:15px;
+	font-size:14px;
 	height: 200px;
 }
 
@@ -110,7 +110,7 @@
 }
 
 #nameQuarksHome{
-	font-family: 'Helvetica';
+	font-family: 'Quicksand';
 	font-size: 40px;
 	text-decoration: none;
 	margin-left: -1vw;
@@ -123,7 +123,7 @@
 #joinQuoteHome{
 	margin-top: 35vh;
 	margin-left: 10vw;
-	font-family: 'Helvetica';
+	font-family: 'Quicksand';
 	font-size: 40px;
 	font-weight: 900; 
 	width:40vw;
@@ -131,7 +131,7 @@
 
 #joinQuarksLineHome{
 	margin-left: 10vw;
-	font-family: 'Charter';
+	font-family: 'Source Serif Pro';
 	font-size: 18px;
 	width: 40vw; 
 	margin-top: -5vh;
@@ -155,10 +155,12 @@
 
 #exploreQuarksHome{
 	margin-left: 2vw;
+	font-family: 'Source Serif Pro';
 }
 
 #subscribeQuarksHome{
 	margin-left: 10vw;
+	font-family: 'Source Serif Pro';
 }
 
 .navItems{
@@ -178,7 +180,7 @@
 	position:absolute;
 	margin-top: 35vh;
 	margin-left: 35vw;
-	font-family: 'Helvetica';
+	font-family: 'Quicksand';
 	font-size: 30px;
 	font-weight: 900; 
 	width:40vw;
@@ -233,9 +235,9 @@
 }
 
 .WhyQwriting{
-	font-family: 'Charter';
+	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
-	font-size:15.3px;
+	font-size:14.3px;
 	height: 150px;
 }
 
