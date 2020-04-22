@@ -25,15 +25,15 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:555px;
+  height:550px;
   width:407px;
   max-width:407px;
   min-width:407px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
-  max-height: 555px;
-  min-height: 555px;
+  max-height: 550px;
+  min-height: 550px;
 }
 
 .QuarkCards:hover{
