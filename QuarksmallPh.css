@@ -29,15 +29,15 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:570px;
+  height:560px;
   width:310px;
   max-width:310px;
   min-width:310px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
-  max-height: 570px;
-  min-height: 570px;
+  max-height: 560px;
+  min-height: 560px;
 }
 
 .QuarkCards:hover{
