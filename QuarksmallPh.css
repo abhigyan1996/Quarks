@@ -1,0 +1,291 @@
+/* Meidum sized phones and other devices (phones, 600px and down) */
+@media all and (max-width: 374px) and (min-width: 320px) {
+
+#QuarksLogo{
+	position:absolute;
+	margin-left: 40vw;
+	height: 60px;
+	width: 60px;
+}
+
+#nameQuarks{
+	position: absolute;
+	margin-left: 45vw;
+	font-family: 'Quicksand';
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.Quarks{
+	position: absolute;
+	background: black;
+	margin-top: 80px;
+	width:100vw;
+	margin-left: 0vw;
+}
+
+.QuarkCards {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  height:570px;
+  width:350px;
+  max-width:350px;
+  min-width:350px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  background: white;
+  max-height: 570px;
+  min-height: 570px;
+}
+
+.QuarkCards:hover{
+ -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.quarkImages{
+	height:230px;
+	max-height:230px;
+	min-height:230px;
+  	width:350px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width: 350px;
+	min-width: 350px;
+}
+
+.quarkHalf{
+	margin-left: -5vw;
+}
+
+.QuarkTitle{
+	font-weight: 900;
+	font-family: 'Garamond';
+	font-size:18px;
+	color: black;
+	margin-top: 1vh;
+}
+
+.writings{
+	font-family: 'Source Serif Pro';
+	margin-top: -2vh;
+	font-size:14px;
+	height: 220px;
+}
+
+.QuarkBottomStrip{
+	background: #000000;	
+	margin-top: 23px;
+	height:46px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.ScienceTag{
+	margin-top: -70px;
+	margin-left: 250px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.AuthorName{
+	color:white;
+	margin-top: -60px;
+	margin-left: 1.25vw;
+	font-size:10px;
+}
+
+.DateOfQuark{
+	color:white;
+	margin-top: 0vh;
+	margin-left: 1.25vw;
+	font-size:10px;
+}
+
+#LikeQuarkFb{
+	position: absolute;
+	margin-top: -27.5px;
+	margin-left: 140px;
+}
+/*home page styles */
+#QuarksLogoHome{
+	margin-left: 8vw;
+	height: 60px;
+	width: 60px;
+}
+
+#nameQuarksHome{
+	font-family: 'Quicksand';
+	font-size: 40px;
+	text-decoration: none;
+	margin-left: -1vw;
+}
+
+#div1Home{
+	background: white;
+}
+
+#joinQuoteHome{
+	margin-top: 35vh;
+	margin-left: 10vw;
+	font-family: 'Quicksand';
+	font-size: 40px;
+	font-weight: 900; 
+	width:40vw;
+}
+
+#joinQuarksLineHome{
+	margin-left: 10vw;
+	font-family: 'Source Serif Pro';
+	font-size: 18px;
+	width: 40vw; 
+	margin-top: -5vh;
+}
+
+#homeAmoeba1{
+	position: absolute;
+	margin-left: 50vw;
+	height: 350px;
+	width: 45vw;
+	margin-top: -15vh;
+}
+
+#homeAmoeba2{
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 15vh;
+	height: 470px;
+	width: 35vw;
+}
+
+#exploreQuarksHome{
+	margin-left: 2vw;
+	font-family: 'Source Serif Pro';
+}
+
+#subscribeQuarksHome{
+	margin-left: 10vw;
+	font-family: 'Source Serif Pro';
+}
+
+.navItems{
+	text-decoration: none;
+}
+
+#navItem1{
+	color:red;
+	margin-left: 40vw
+}
+
+.navItems:hover {
+	color:red;
+}
+
+#navItem1Quarks{
+	color:black;
+	margin-left: 40vw
+}
+
+#navItem2Quarks{
+	color:red;
+}
+
+#WhyQuarksHome{
+	position:absolute;
+	margin-top: 35vh;
+	margin-left: 35vw;
+	font-family: 'Quicksand';
+	font-size: 30px;
+	font-weight: 900; 
+	width:40vw;
+}
+
+#ingredientsHome{
+	position:absolute;
+	margin-top: 25vh;
+	margin-left: 52vw;
+	font-family: 'Helvetica';
+	font-size: 15px; 
+	width:40vw;
+}
+
+.WhyQuarkCards{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  height:460px;
+  width:300px;
+  max-width:400px;
+  min-width:300px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  background: white;
+  max-height: 460px;
+  min-height: 460px;
+  margin-left: 2vw;
+}
+
+.WhyQuarkCards:hover{
+ -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.WhyQuarks{
+	margin-top: 25vh;
+	margin-left: 5vw;
+	width: 85vw;
+}
+
+.whyQuarkImages{
+	height:200px;
+	max-height:200px;
+	min-height:200px;
+  	width:300px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.WhyQwriting{
+	font-family: 'Source Serif Pro';
+	margin-top: -2vh;
+	font-size:14.3px;
+	height: 150px;
+}
+
+.count1{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 30vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.count2{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 45vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.count3{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 60vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+}
