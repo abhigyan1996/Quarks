@@ -1,7 +1,6 @@
 /* Meidum sized phones and other devices (phones, 600px and down) */
 @media all and (max-width: 413px) and (min-width: 375px) {
 
-
 #QuarksLogo{
 	position:absolute;
 	margin-left: 40vw;
@@ -60,7 +59,7 @@
 }
 
 .quarkHalf{
-	margin-left: -18vw;
+	margin-left: -5vw;
 }
 
 .QuarkTitle{
@@ -288,5 +287,6 @@
 	font-size:25px;
 	font-weight: 900;
 }
+
 
 }
