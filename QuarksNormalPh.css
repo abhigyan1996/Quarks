@@ -3,6 +3,7 @@
 
 
 #QuarksLogo{
+	position:absolute;
 	margin-left: 40vw;
 	height: 60px;
 	width: 60px;
@@ -17,7 +18,11 @@
 }
 
 .Quarks{
-	margin-top: 12vh;
+	position: absolute;
+	background: green;
+	margin-top: 80px;
+	width:100vw;
+	margin-left: 0vw;
 }
 
 .QuarkCards {
@@ -55,7 +60,7 @@
 }
 
 .quarkHalf{
-	margin-left: -20vw;
+	margin-left: -8vw;
 }
 
 .QuarkTitle{
