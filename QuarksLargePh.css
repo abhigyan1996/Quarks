@@ -11,16 +11,15 @@
 }
 
 #nameQuarks{
-	position: absolute;
-	margin-left: 45vw;
 	font-family: 'Quicksand';
 	font-size: 40px;
 	text-decoration: none;
+	margin-left: -1vw;
 }
 
 .Quarks{
 	position: absolute;
-	background: yellow;
+	background: white;
 	margin-top: 80px;
 	width:100vw;
 	margin-left: 0vw;
