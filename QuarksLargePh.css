@@ -20,7 +20,7 @@
 
 .Quarks{
 	position: absolute;
-	background: orange;
+	background: black;
 	margin-top: 80px;
 	width:100vw;
 	margin-left: 0vw;
@@ -61,7 +61,7 @@
 }
 
 .quarkHalf{
-	margin-left: -10vw;
+	margin-left: -5vw;
 }
 
 .QuarkTitle{
