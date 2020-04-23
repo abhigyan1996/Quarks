@@ -19,7 +19,7 @@
 .Quarks{
 	margin-top: 15vh; 
 	width: 80vw;
-	margin-left: -8vw;
+	margin-left: -7vw;
 }
 
 .QuarkCards {
@@ -71,7 +71,7 @@
 
 .QuarkBottomStrip{
 	background: #000000;	
-	margin-top: 20px;
+	margin-top: 21px;
 	height:46px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
