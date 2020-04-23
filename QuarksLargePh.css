@@ -19,7 +19,6 @@
 .Quarks{
 	margin-top: 15vh; 
 	width: 100vw;
-	margin-left: -6vw;
 }
 
 .QuarkCards {
@@ -223,12 +222,6 @@
   max-height: 460px;
   min-height: 460px;
   margin-left: 2vw;
-}
-
-.WhyQuarkCards:hover{
- -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .WhyQuarks{
