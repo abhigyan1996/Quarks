@@ -19,7 +19,7 @@
 .Quarks{
 	margin-top: 15vh; 
 	width: 80vw;
-	margin-left: -6vw;
+	margin-left: -8vw;
 }
 
 .QuarkCards {
@@ -28,16 +28,15 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:550px;
-  width:407px;
-  max-width:407px;
-  min-width:407px;
+  height:570px;
+  width:350px;
+  max-width:350px;
+  min-width:350px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
-  max-height: 550px;
-  min-height: 550px;
-  margin-left: -5vw;
+  max-height: 570px;
+  min-height: 570px;
 }
 
 .QuarkCards:hover{
@@ -47,10 +46,10 @@
 }
 
 .quarkImages{
-	height:250px;
-	max-height:250px;
-	min-height:250px;
-  	width:407px;
+	height:230px;
+	max-height:230px;
+	min-height:230px;
+  	width:350px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
@@ -67,12 +66,12 @@
 	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
 	font-size:14px;
-	height: 200px;
+	height: 220px;
 }
 
 .QuarkBottomStrip{
 	background: #000000;	
-	margin-top: 11px;
+	margin-top: 20px;
 	height:46px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -80,7 +79,7 @@
 
 .ScienceTag{
 	margin-top: -70px;
-	margin-left: 310px;
+	margin-left: 250px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-left:10px;
@@ -104,7 +103,7 @@
 #LikeQuarkFb{
 	position: absolute;
 	margin-top: -27.5px;
-	margin-left: 165px;
+	margin-left: 140px;
 }
 /*home page styles */
 #QuarksLogoHome{
