@@ -35,7 +35,8 @@
   background: white;
   max-height: 570px;
   min-height: 570px;
-  margin-left: -20vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .QuarkCards:hover{
@@ -51,6 +52,12 @@
   	width:350px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+}
+
+.quarkHalf{
+	background: green;
+	width:98vw;
+	margin-left: -21vw;
 }
 
 .QuarkTitle{
