@@ -176,6 +176,31 @@
 	color:red;
 }
 
+#navItem1Quarks{
+	color:black;
+	position:absolute;
+	margin-left: 65vw;
+}
+
+#navItem2Quarks{
+	color:red;
+	position:absolute;
+	margin-left: 70vw;
+
+}
+
+#navItems3Quarks{
+	color:black;
+	position:absolute;
+	margin-left: 76vw;
+}
+
+#navItems4Quarks{
+	color:black;
+	position:absolute;
+	margin-left: 84vw;
+}
+
 #WhyQuarksHome{
 	position:absolute;
 	margin-top: 35vh;
