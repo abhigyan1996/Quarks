@@ -18,10 +18,16 @@
 
 .Quarks{
 	margin-top: 15vh; 
-	width: 100vw;
+	width: 80vw;
+	margin-left: -6vw;
 }
 
 .QuarkCards {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
   height:550px;
   width:407px;
   max-width:407px;
@@ -32,6 +38,12 @@
   max-height: 550px;
   min-height: 550px;
   margin-left: -5vw;
+}
+
+.QuarkCards:hover{
+ -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 .quarkImages{
