@@ -18,7 +18,7 @@
 
 .Quarks{
 	position: absolute;
-	background: grey;
+	background: green;
 	margin-top: 80px;
 	width:100vw;
 	margin-left: 0vw;
@@ -31,9 +31,9 @@
   -webkit-transition: .3s ease;
   transition: .3s ease;
   height:570px;
-  width:320px;
-  max-width:320px;
-  min-width:320px;
+  width:340px;
+  max-width:340px;
+  min-width:340px;
   margin-top: 10vh;
   border-radius: 10px;
   background: white;
@@ -51,11 +51,11 @@
 	height:230px;
 	max-height:230px;
 	min-height:230px;
-  	width:320px;
+  	width:340px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	max-width: 320px;
-	min-width: 320px;
+	max-width: 340px;
+	min-width: 340px;
 }
 
 .quarkHalf{
