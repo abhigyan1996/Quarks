@@ -83,6 +83,8 @@
 	min-width:95vw;
 	max-width:95vw;
 	background:green;
+	padding-left:1.5vw;
+	padding-right:1.5vw;
 }
 
 .QuarkBottomStrip{
@@ -100,26 +102,25 @@
 
 .ScienceTag{
 	position:absolute;
-	margin-left: 70vw;
-	margin-top:-6vw;
+	margin-left: 72vw;
+	margin-top:-8vw;
 	font-size:3.5vw;
 	padding: 1vw;
 }
 
 .AuthorName{
-	background:white;
 	font-family: 'Source Serif Pro';
 	font-size:3.5vw;
 	position:absolute;
 	color:white;
 	margin-left: 1.25vw;
-	margin-top:-6vw;
+	margin-top:-8vw;
 }
 
 .DateOfQuark{
 	position:absolute;
 	color:white;
-	margin-top: -4vw;
+	margin-top: -6vw;
 	margin-left: 1.25vw;
 	font-size:3.5vw;
 }
@@ -127,7 +128,7 @@
 #LikeQuarkFb{
 	position: absolute;
 	margin-left: 40vw;
-	margin-top: -6vw;
+	margin-top: -8vw;
 }
 /*home page styles */
 #QuarksLogoHome{
