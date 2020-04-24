@@ -20,7 +20,7 @@
 .Quarks{
 	position: absolute;
 	background: white;
-	margin-top: 80px;
+	margin-top: 20vw;
 	width:100vw;
 	margin-left: 0vw;
 }
@@ -308,11 +308,4 @@
 	font-weight: 900;
 }
 
-#Jellyfish{
-	background: blue;
-}
-
-#electricEels{
-	background: yellow;
-}
 }
