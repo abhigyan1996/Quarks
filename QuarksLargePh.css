@@ -12,14 +12,14 @@
 
 #nameQuarks{
 	font-family: 'Quicksand';
-	font-size: 40px;
+	font-size: 4vw;
 	text-decoration: none;
 	margin-left: -1vw;
 }
 	
 .Quarks{
 	position: absolute;
-	background: purple;
+	background: white;
 	width:100vw;
 	margin-left: 0vw;
 }
