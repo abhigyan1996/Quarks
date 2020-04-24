@@ -98,7 +98,8 @@
 }
 
 .ScienceTag{
-	margin-left: 80vw;
+	position:absolute;
+	margin-left: 60vw;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
 	padding-left:2vw;
@@ -106,12 +107,14 @@
 }
 
 .AuthorName{
+	position:absolute;
 	color:white;
 	margin-left: 1.25vw;
 	font-size:10px;
 }
 
 .DateOfQuark{
+	position:absolute;
 	color:white;
 	margin-top: 0vh;
 	margin-left: 1.25vw;
@@ -120,8 +123,7 @@
 
 #LikeQuarkFb{
 	position: absolute;
-	margin-top: -27.5px;
-	margin-left: 140px;
+	margin-left: 30vw;
 }
 /*home page styles */
 #QuarksLogoHome{
