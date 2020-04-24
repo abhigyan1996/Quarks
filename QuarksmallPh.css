@@ -1,5 +1,5 @@
 /* Meidum sized phones and other devices (phones, 600px and down) */
-@media all and (max-width: 374px) and (min-width: 320px) {
+@media all and (max-width: 359px) and (min-width: 320px) {
 
 #QuarksLogo{
 	position:absolute;
