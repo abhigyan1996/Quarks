@@ -19,33 +19,36 @@
 
 .Quarks{
 	position: absolute;
-	background: blue;
+	background: orange;
 	margin-top: 80px;
 	width:100vw;
 	margin-left: 0vw;
 }
 
-.QuarkCards {
+.quarkHalf {
+  height:580px;
+  max-height: 580px;
+  min-height: 580px;
+  margin-top: 10vh;
+}
+
+.QuarkCards{
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:570px;
-  width:350px;
-  max-width:350px;
-  min-width:350px;
-  margin-top: 10vh;
-  border-radius: 10px;
+  width: 407px;
+  max-width: 407px;
+  min-width: 407px;
   background: white;
-  max-height: 570px;
-  min-height: 570px;
+  margin-left: 2.75vw;
 }
 
 .QuarkCards:hover{
- -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+ -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .quarkImages{
@@ -57,10 +60,6 @@
 	border-top-right-radius: 10px;
 	max-width: 350px;
 	min-width: 350px;
-}
-
-.quarkHalf{
-	margin-left: -6vw;
 }
 
 .QuarkTitle{
