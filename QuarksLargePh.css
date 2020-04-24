@@ -1,5 +1,5 @@
 
-@media all and (max-width: 599px) and (min-width: 414px) {
+@media all and (max-width: 599px) and (min-width: 400px) {
 
 /* Meidum sized phones and other devices (phones, 600px and down) */
 
@@ -19,7 +19,7 @@
 
 .Quarks{
 	position: absolute;
-	background: yellow;
+	background: blue;
 	margin-top: 80px;
 	width:100vw;
 	margin-left: 0vw;
