@@ -18,13 +18,14 @@
 }
 
 .navPh{
+	position:absolute;
 	margin-left:90vw;	
 }
 	
 .Quarks{
 	position: absolute;
-	background: white;
-	margin-top: 20vw;
+	background: purple;
+	margin-top: 10vw;
 	width:100vw;
 	margin-left: 0vw;
 }
