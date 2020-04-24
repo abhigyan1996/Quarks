@@ -5,16 +5,16 @@
 
 #QuarksLogo{
 	position:absolute;
-	margin-left: 40vw;
-	height: 20vw;
-	width: 20vw;
+	margin-left: 2vw;
+	height: 15vw;
+	width: 15vw;
 }
 
 #nameQuarks{
 	font-family: 'Quicksand';
 	font-size: 10vw;
 	text-decoration: none;
-	margin-left: -1vw;
+	margin-left: 2vw;
 }
 	
 .Quarks{
