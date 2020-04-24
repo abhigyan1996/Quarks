@@ -52,9 +52,9 @@
 }
 
 .quarkImages{
-	height:40vh;
-	max-height:40vh;
-	min-height:40vvh;
+	height:66vw;
+	max-height:66vw;
+	min-height:66vw;
   	width:95vw;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -74,9 +74,9 @@
 	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
 	font-size:3.5vw;
-	height: 55vh;
-	max-height:55vh;
-	min-height:55vh;
+	height: 90.75vw;
+	max-height:90.75vw;
+	min-height:90.75vw;
 	width:90vw;
 	min-width:90vw;
 	max-width:90vw;
@@ -293,4 +293,11 @@
 	font-weight: 900;
 }
 
+#Jellyfish{
+	background: green;
+}
+
+#electricEels{
+	background: yellow;
+}
 }
