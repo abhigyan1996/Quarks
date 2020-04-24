@@ -26,9 +26,9 @@
 }
 
 .quarkHalf {
-  height:580px;
-  max-height: 580px;
-  min-height: 580px;
+  height: 80vh;
+  max-height: 80vh;
+  min-height: 80vh;
   margin-top: 10vh;
 }
 
