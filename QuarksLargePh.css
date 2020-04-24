@@ -46,9 +46,9 @@
 }
 
 .QuarkCards:hover{
- -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+ 	-webkit-transform: scale(1);
+ 	 -ms-transform: scale(1);
+ 	 transform: scale(1);
 }
 
 .quarkImages{
@@ -68,6 +68,9 @@
 	font-size: 1.5vw
 	color: black;
 	background:grey;
+	height:7.5vw;
+	max-height:7.5vw;
+	min-height: 7.5vw;
 }
 
 .writings{
@@ -80,6 +83,7 @@
 	min-width:95vw;
 	max-width:95vw;
 	background:green;
+	margin-top:3vw;
 }
 
 .QuarkBottomStrip{
