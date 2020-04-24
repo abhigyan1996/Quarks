@@ -64,8 +64,8 @@
 
 .QuarkTitle{
 	font-weight: 900;
-	font-family: 'Garamond';
-	font-size: 1.75vw
+	font-family: 'Source Serif Pro';
+	font-size: 4.5vw;
 	color: black;
 	background:grey;
 	height:7.5vw;
@@ -101,9 +101,10 @@
 }
 
 .ScienceTag{
+	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 72vw;
-	margin-top:-8vw;
+	margin-top:-10vw;
 	font-size:3.5vw;
 	padding: 1vw;
 }
@@ -114,7 +115,7 @@
 	position:absolute;
 	color:white;
 	margin-left: 1.25vw;
-	margin-top:-8vw;
+	margin-top:-10vw;
 }
 
 .DateOfQuark{
@@ -129,7 +130,7 @@
 #LikeQuarkFb{
 	position: absolute;
 	margin-left: 40vw;
-	margin-top: -8vw;
+	margin-top: -10vw;
 }
 /*home page styles */
 #QuarksLogoHome{
