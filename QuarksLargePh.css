@@ -65,7 +65,7 @@
 .QuarkTitle{
 	font-weight: 900;
 	font-family: 'Garamond';
-	font-size:18px;
+	font-size: 1.5vw
 	color: black;
 	margin-top: 1vh;
 }
@@ -73,7 +73,7 @@
 .writings{
 	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
-	font-size:14px;
+	font-size:1.1vw;
 	height: 220px;
 }
 
