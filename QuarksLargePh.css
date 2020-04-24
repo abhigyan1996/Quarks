@@ -16,15 +16,10 @@
 	text-decoration: none;
 	margin-left: -1vw;
 }
-
-.navPh{
-	position:absolute;	
-}
 	
 .Quarks{
 	position: absolute;
 	background: white;
-	margin-top: 20vw;
 	width:100vw;
 	margin-left: 0vw;
 }
