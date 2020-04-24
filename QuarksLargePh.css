@@ -78,9 +78,9 @@
 .writings{
 	font-family: 'Source Serif Pro';
 	font-size:4vw;
-	height: 80vw;
-	max-height:80vw;
-	min-height:80vw;
+	height: 82.5vw;
+	max-height:82.5vw;
+	min-height:82.5vw;
 	width:95vw;
 	min-width:95vw;
 	max-width:95vw;
@@ -106,7 +106,7 @@
 .ScienceTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 72vw;
+	margin-left: 75vw;
 	margin-top:-10vw;
 	font-size:3.5vw;
 	padding: 1vw;
@@ -132,7 +132,7 @@
 
 #LikeQuarkFb{
 	position: absolute;
-	margin-left: 40vw;
+	margin-left: 35vw;
 	margin-top: -10vw;
 }
 /*home page styles */
