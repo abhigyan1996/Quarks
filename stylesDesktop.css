@@ -1,105 +1,144 @@
 
+
+
+/* Meidum sized phones and other devices (phones, 600px and down) */
+
 #QuarksLogo{
-	margin-left: 40vw;
-	height: 60px;
-	width: 60px;
+	position:absolute;
+	margin-left:4vw;
+	height: 5vw;
+	width: 5vw;
 }
 
 #nameQuarks{
 	font-family: 'Quicksand';
-	font-size: 40px;
+	font-size: 4vw;
 	text-decoration: none;
-	margin-left: -1vw;
+	margin-left: 9vw;
 }
-
+	
 .Quarks{
-	margin-top: 15vh;
-	margin-left: 12vw; 
-	width: 75vw;
+	position: absolute;
+	background: white;
+	width:75vw;
+	margin-left: 12.5vw;
 }
 
-.QuarkCards {
+.quarkHalf {
+  height: 52.5vw;
+  max-height: 52.5vw;
+  min-height: 52.5vw;
+}
+
+.QuarkCards{
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:550px;
-  width:407px;
-  max-width:407px;
-  min-width:407px;
-  margin-top: 10vh;
-  border-radius: 10px;
+  width: 30vw;
+  max-width: 30vw;
+  min-width: 30vw;
   background: white;
-  max-height: 550px;
-  min-height: 550px;
+  height: 42.5vw;
+  max-height: 42.5vw;
+  min-height:42.5vw;
+  margin-top: 10vw;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 2.5vw;
+  margin-bottom: 5vw;
 }
 
 .QuarkCards:hover{
- -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+ 	-webkit-transform: scale(1.05);
+ 	 -ms-transform: scale(1.05);
+ 	 transform: scale(1.05);
 }
 
 .quarkImages{
-	height:250px;
-	max-height:250px;
-	min-height:250px;
-  	width:407px;
+	height:18vw;
+	max-height:18vw;
+	min-height:18vw;
+  	width:30vw;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	max-width: 30vw;
+	min-width: 30vw;
 }
 
 .QuarkTitle{
 	font-weight: 900;
-	font-family: 'Garamond';
-	font-size:18px;
+	font-family: 'Source Serif Pro';
+	font-size: 1.5vw;
 	color: black;
-	margin-top: 1vh;
+	background: white;
+	height:2vw;
+	max-height:2vw;
+	min-height: 2vw;
+	margin-top: 0.5vw;
 }
 
 .writings{
 	font-family: 'Source Serif Pro';
-	margin-top: -2vh;
-	font-size:14px;
-	height: 200px;
+	font-size:1.1vw;
+	height: 22vw;
+	max-height:22vw;
+	min-height:22vw;
+	width:30vw;
+	min-width:30vw;
+	max-width:30vw;
+	background:white;
+	padding-left:1.5vw;
+	padding-right:1.5vw;
+	padding-top:1vw;
 }
 
 .QuarkBottomStrip{
-	background: #000000;	
-	margin-top: 11px;
-	height:46px;
+	background: #000000;
+	height: 4vw;
+	max-height:4vw;
+	min-height:4vw;
+	width:30vw;
+	max-width:30vw;
+	min-width:30vw;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+	margin-top:-2vw;
 }
 
 .ScienceTag{
-	margin-top: -70px;
-	margin-left: 310px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left:10px;
-	padding-right:10px;
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 23.75vw;
+	margin-top:-3.5vw;
+	font-size:1vw;
+	padding: 0.5vw;
 }
 
 .AuthorName{
+	font-family: 'Source Serif Pro';
+	font-size:1vw;
+	margin-top: -3.5vw;
+	position:absolute;
 	color:white;
-	margin-top: -60px;
 	margin-left: 1.25vw;
-	font-size:10px;
+
 }
 
 .DateOfQuark{
+	position:absolute;
 	color:white;
-	margin-top: 0vh;
+	margin-top: -2vw;
 	margin-left: 1.25vw;
-	font-size:10px;
+	font-size:1vw;
+	font-family: 'Source Serif Pro';
 }
 
 #LikeQuarkFb{
 	position: absolute;
-	margin-top: -27.5px;
-	margin-left: 165px;
+	margin-left: 12.5vw;
+	margin-top: -3vw;
 }
 /*home page styles */
 #QuarksLogoHome{
@@ -177,27 +216,11 @@
 
 #navItem1Quarks{
 	color:black;
-	position:absolute;
-	margin-left: 65vw;
+	margin-left: 40vw
 }
 
 #navItem2Quarks{
 	color:red;
-	position:absolute;
-	margin-left: 70vw;
-
-}
-
-#navItems3Quarks{
-	color:black;
-	position:absolute;
-	margin-left: 76vw;
-}
-
-#navItems4Quarks{
-	color:black;
-	position:absolute;
-	margin-left: 84vw;
 }
 
 #WhyQuarksHome{
@@ -291,3 +314,13 @@
 	font-size:25px;
 	font-weight: 900;
 }
+
+/*#electricEels{
+	background: black
+}
+
+#Jellyfish{
+	background: orange
+}
+
+*/
