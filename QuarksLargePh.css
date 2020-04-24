@@ -19,7 +19,7 @@
 
 .Quarks{
 	position: absolute;
-	background: pink;
+	background: blue;
 	margin-top: 80px;
 	width:100vw;
 	margin-left: 0vw;
@@ -73,11 +73,11 @@
 .writings{
 	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
-	font-size:1.5vw;
+	font-size:2.5vw;
 	height: 220px;
-	width:350px;
-	min-width:350px;
-	max-width:350px;
+	width:300px;
+	min-width:300px;
+	max-width:300px;
 }
 
 .QuarkBottomStrip{
