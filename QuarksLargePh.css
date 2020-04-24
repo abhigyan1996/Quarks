@@ -44,7 +44,7 @@
   height: 150vw;
   max-height: 150vw;
   min-height:150vw;
-  margin-top: 0vw;
+  margin-top: 20vw;
 }
 
 .QuarkCards:hover{
@@ -73,6 +73,7 @@
 	height:10vw;
 	max-height:10vw;
 	min-height: 10vw;
+	margin-top: 1vw;
 }
 
 .writings{
@@ -87,7 +88,7 @@
 	background:white;
 	padding-left:1.5vw;
 	padding-right:1.5vw;
-	padding-top:1vw;
+	padding-top:0.5vw;
 }
 
 .QuarkBottomStrip{
