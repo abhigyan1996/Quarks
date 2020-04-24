@@ -67,10 +67,10 @@
 	font-family: 'Source Serif Pro';
 	font-size: 4.5vw;
 	color: black;
-	background:grey;
-	height:7.5vw;
-	max-height:7.5vw;
-	min-height: 7.5vw;
+	background: white;
+	height:10vw;
+	max-height:10vw;
+	min-height: 10vw;
 }
 
 .writings{
@@ -112,7 +112,7 @@
 
 .AuthorName{
 	font-family: 'Source Serif Pro';
-	font-size:3.5vw;
+	font-size:2.75vw;
 	position:absolute;
 	color:white;
 	margin-left: 1.25vw;
@@ -124,7 +124,7 @@
 	color:white;
 	margin-top: -6vw;
 	margin-left: 1.25vw;
-	font-size:3.5vw;
+	font-size:2.75vw;
 	font-family: 'Source Serif Pro';
 }
 
