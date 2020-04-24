@@ -108,6 +108,8 @@
 }
 
 .AuthorName{
+	font-family: 'Source Serif Pro';
+	font-size:3.5vw;
 	position:absolute;
 	color:white;
 	margin-left: 1.25vw;
