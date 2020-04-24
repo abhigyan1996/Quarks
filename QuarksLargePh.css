@@ -52,9 +52,9 @@
 }
 
 .quarkImages{
-	height:66vw;
-	max-height:66vw;
-	min-height:66vw;
+	height:60vw;
+	max-height:60vw;
+	min-height:60vw;
   	width:95vw;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -74,9 +74,9 @@
 	font-family: 'Source Serif Pro';
 	margin-top: -2vh;
 	font-size:3.5vw;
-	height: 90.75vw;
-	max-height:90.75vw;
-	min-height:90.75vw;
+	height: 82.5vw;
+	max-height:82.5vw;
+	min-height:82.5vw;
 	width:90vw;
 	min-width:90vw;
 	max-width:90vw;
