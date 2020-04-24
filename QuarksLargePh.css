@@ -47,6 +47,9 @@
   min-width: 95vw;
   background: white;
   margin-left: -1.5vw;
+  height: 160vw;
+  max-height: 160vw;
+  min-height:160vw;
 }
 
 .QuarkCards:hover{
