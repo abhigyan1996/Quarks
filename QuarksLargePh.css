@@ -101,13 +101,10 @@
 .ScienceTag{
 	position:absolute;
 	margin-left: 60vw;
-	padding-top: 2vw;
-	padding-bottom: 2vw;
-	padding-left:2vw;
-	padding-right:2vw;
 }
 
 .AuthorName{
+	background:white;
 	font-family: 'Source Serif Pro';
 	font-size:3.5vw;
 	position:absolute;
