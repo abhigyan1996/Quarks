@@ -87,23 +87,26 @@
 
 .QuarkBottomStrip{
 	background: #000000;
-	height:46px;
+	height: 15vw;
+	max-height:15vw;
+	min-height:15vw;
+	width:95vw;
+	max-width:95vw;
+	min-width:95vw;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
 .ScienceTag{
-	margin-top: -70px;
-	margin-left: 250px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left:10px;
-	padding-right:10px;
+	margin-left: 80vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-left:2vw;
+	padding-right:2vw;
 }
 
 .AuthorName{
 	color:white;
-	margin-top: -60px;
 	margin-left: 1.25vw;
 	font-size:10px;
 }
