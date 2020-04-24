@@ -19,7 +19,7 @@
 	
 .Quarks{
 	position: absolute;
-	background: orange;
+	background: purple;
 	width:100vw;
 	margin-left: 0vw;
 }
@@ -44,6 +44,7 @@
   height: 150vw;
   max-height: 150vw;
   min-height:150vw;
+  margin-top: -20vw;
 }
 
 .QuarkCards:hover{
