@@ -142,9 +142,9 @@
 */
 .listenBtn{
 	position: absolute;
-	margin-left: 47.5w;
+	margin-left: 47.5vw;
 	font-size:5vw;
-	margin-top: -10vw;
+	margin-top: -12vw;
 }
 /*home page styles */
 #QuarksLogoHome{
