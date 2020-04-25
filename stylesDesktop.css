@@ -1,7 +1,5 @@
 
-
-
-/* Meidum sized phones and other devices (phones, 600px and down) */
+/* 600px and up, IPAD, Desktop */
 
 #QuarksLogo{
 	position:absolute;
@@ -74,7 +72,7 @@
 .QuarkTitle{
 	font-weight: 900;
 	font-family: 'Source Serif Pro';
-	font-size: 1.5vw;
+	font-size: 1.25vw;
 	color: black;
 	background: white;
 	height:2vw;
