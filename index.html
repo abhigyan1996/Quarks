@@ -100,7 +100,7 @@
 	  			<div class="AuthorName"> Quark by Satabdi </div>
 		  		<div class="DateOfQuark"> 22 April, 2020</div>
 		  		<!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#Jellyfish" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-				<i id="listenJelFish" class="listenBtn w3-button w3-hover-black w3-black fas fa-headphones"></i>
+				<i id="listenJelFish" class="listenBtn fas fa-headphones"></i>
 			</div>
 		</div>
   	</div>
@@ -116,7 +116,7 @@
 	  			<div class="AuthorName"> Quark by Angshuman </div>
 		  		<div class="DateOfQuark"> 19 April, 2020</div>
 		  		<!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-				<i id="listenLightning" class="listenBtn w3-button w3-hover-black w3-black fas fa-headphones"></i>
+				<i id="listenLightning" class="listenBtn fas fa-headphones"></i>
 			</div>
 		</div>
   	</div>
@@ -132,7 +132,7 @@
 	  			<div class="AuthorName"> Quark by Angshuman </div>
 		  		<div class="DateOfQuark"> 18 April, 2020</div><!-- 
 		  		<div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#SkyBlueCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-				<i id="listenSkyBlue" class="listenBtn w3-button w3-hover-black w3-black fas fa-headphones"></i>
+				<i id="listenSkyBlue" class="listenBtn fas fa-headphones"></i>
 			</div>
 		</div>
   	</div>	
@@ -170,7 +170,7 @@ function toggleFunction() {
     $('#listenElecEel').click(function(){
       var text1 = document.getElementById("titleElecEels").innerHTML;
       var text2 = document.getElementById("ElectricEelsTxt").innerHTML;
-      var text = text1 + "..." +text2;
+      var text = text1 + "..." + text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
       msg.pitch = 1;
@@ -189,7 +189,7 @@ function toggleFunction() {
     $('#listenJelFish').click(function(){
       var text1 = document.getElementById("titleJellyFish").innerHTML;
       var text2 = document.getElementById("JellyFishTxt").innerHTML;
-      var text = text1 + text2;
+      var text = text1 + "..." + text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
       msg.pitch = 1;
@@ -208,7 +208,7 @@ function toggleFunction() {
     $('#listenLightning').click(function(){
       var text1 = document.getElementById("TitleLightning").innerHTML;
       var text2 = document.getElementById("LightningTxt").innerHTML;
-      var text = text1 + text2;
+      var text = text1 + "..." + text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
       msg.pitch = 1;
@@ -227,7 +227,7 @@ function toggleFunction() {
     $('#listenSkyBlue').click(function(){
       var text1 = document.getElementById("titleSkyBlue").innerHTML;
       var text2 = document.getElementById("SkyBlueTxt").innerHTML;
-      var text = text1 + text2;
+      var text = text1 + "..." +text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
       msg.pitch = 1;
