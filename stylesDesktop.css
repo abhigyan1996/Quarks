@@ -30,6 +30,10 @@
   min-height: 52.5vw;
 }
 
+.OutQuarks{
+	margin-top: 10vw;
+}
+
 .QuarkCards{
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -40,15 +44,15 @@
   max-width: 30vw;
   min-width: 30vw;
   background: white;
-  height: 42.5vw;
-  max-height: 42.5vw;
-  min-height:42.5vw;
-  margin-top: 10vw;
+  height: 44vw;
+  max-height: 44vw;
+  min-height:44vw;
   border-radius: 10px;
   border-radius: 10px;
   margin-left: 2.5vw;
   margin-bottom: 5vw;
 }
+
 
 .QuarkCards:hover{
  	-webkit-transform: scale(1.05);
@@ -135,11 +139,18 @@
 	font-family: 'Source Serif Pro';
 }
 
+.listenBtn{
+	position: absolute;
+	margin-left: 13.5vw;
+	font-size:2vw;
+	margin-top: -3.5vw;
+}
+/*
 #LikeQuarkFb{
 	position: absolute;
 	margin-left: 12.5vw;
 	margin-top: -3vw;
-}
+}*/
 /*home page styles */
 #QuarksLogoHome{
 	margin-left: 8vw;
@@ -215,12 +226,35 @@
 }
 
 #navItem1Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
 	color:black;
-	margin-left: 40vw
+	margin-left: 70vw;
+	position:absolute;
 }
 
 #navItem2Quarks{
-	color:red;
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 75vw;
+	position:absolute;
+	color:red;	
+}
+
+#navItems3Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 81vw;
+	position:absolute;
+}
+
+#navItems4Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 88vw;
+	position:absolute;	
 }
 
 #WhyQuarksHome{
