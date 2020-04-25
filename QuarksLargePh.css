@@ -17,6 +17,10 @@
 	margin-left: 8vw;
 }
 	
+.OutQuarks{
+	margin-top: 20vw;
+}
+
 .Quarks{
 	position: absolute;
 	background: white;
@@ -44,7 +48,6 @@
   height: 150vw;
   max-height: 150vw;
   min-height:150vw;
-  margin-top: 20vw;
 }
 
 .QuarkCards:hover{
@@ -130,10 +133,17 @@
 	font-size:2.75vw;
 	font-family: 'Source Serif Pro';
 }
-
+/*
 #LikeQuarkFb{
 	position: absolute;
 	margin-left: 37vw;
+	margin-top: -10vw;
+}
+*/
+.listenBtn{
+	position: absolute;
+	margin-left: 36vw;
+	font-size:2vw;
 	margin-top: -10vw;
 }
 /*home page styles */
