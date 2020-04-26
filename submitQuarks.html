@@ -49,10 +49,10 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
     <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
     <div style="margin-top:3vh">
-    <a href="homePage.html" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
+    <a href="homePage.html" class="navItems w3-bar-item w3-hide-small" id="navItem1submit"> Home</a>
     <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
     <a href="homePage.html#SubscriptionQuarks" class="navItems w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="#register" class="navItems w3-bar-item w3-hide-small" id="navItems4Quarks">Submit</a>
+    <a href="#register" class="navItems w3-bar-item w3-hide-small" id="navItems4submit">Submit</a>
   </div>
 
   </div>
@@ -100,34 +100,6 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-</script>
-
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $(".homeSubscribe").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
 </script>
 
 
