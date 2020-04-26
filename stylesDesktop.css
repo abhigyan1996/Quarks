@@ -144,53 +144,60 @@
 	margin-top: -3.5vw;
 	color:white;
 }
-/*
-#LikeQuarkFb{
-	position: absolute;
-	margin-left: 12.5vw;
-	margin-top: -3vw;
-}*/
-/*home page styles */
-#QuarksLogoHome{
-	margin-left: 8vw;
-	height: 60px;
-	width: 60px;
+
+#navItem1Home{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:red;
+	margin-left: 70vw;
+	position:absolute;
 }
 
-#nameQuarksHome{
-	font-family: 'Quicksand';
-	font-size: 40px;
-	text-decoration: none;
-	margin-left: -1vw;
+#navItem2Home{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 75vw;
+	position:absolute;
+	color:black;	
 }
+
 
 #div1Home{
 	background: white;
 }
 
+#div1H{
+	background: white;
+	margin-top: 10vw;
+	height: 40vw;
+
+}
+
 #joinQuoteHome{
-	margin-top: 35vh;
+	margin-top: 6vw;
 	margin-left: 10vw;
 	font-family: 'Quicksand';
-	font-size: 40px;
+	font-size: 3.15vw;
 	font-weight: 900; 
-	width:40vw;
+	width:35vw;
+	max-width: 35vw;
+	min-width: 35vw;
 }
 
 #joinQuarksLineHome{
 	margin-left: 10vw;
 	font-family: 'Source Serif Pro';
-	font-size: 18px;
-	width: 40vw; 
-	margin-top: -5vh;
+	font-size: 1.2vw;
+	width: 35vw;
+	max-width: 35vw;
+	min-width: 35vw; 
+	margin-top: -2vw;
 }
 
 #homeAmoeba1{
-	position: absolute;
-	margin-left: 50vw;
-	height: 350px;
+	height: 25vw;
 	width: 45vw;
-	margin-top: -15vh;
+	margin-top: 5vw;
 }
 
 #homeAmoeba2{
@@ -204,11 +211,15 @@
 #exploreQuarksHome{
 	margin-left: 2vw;
 	font-family: 'Source Serif Pro';
+	font-size: 1.2vw;
+	margin-top:3.5vw;
 }
 
 #subscribeQuarksHome{
 	margin-left: 10vw;
 	font-family: 'Source Serif Pro';
+	font-size: 1.2vw;
+	margin-top:3.5vw;
 }
 
 .navItems{
@@ -258,21 +269,20 @@
 
 #WhyQuarksHome{
 	position:absolute;
-	margin-top: 35vh;
-	margin-left: 35vw;
+	margin-top: 15vw;
+	margin-left: 34vw;
 	font-family: 'Quicksand';
-	font-size: 30px;
+	font-size: 2.25vw;
 	font-weight: 900; 
-	width:40vw;
 }
 
-#ingredientsHome{
+#WhyQuarksMedHome{
 	position:absolute;
-	margin-top: 25vh;
-	margin-left: 52vw;
-	font-family: 'Helvetica';
-	font-size: 15px; 
-	width:40vw;
+	margin-top: 8vw;
+	margin-left: 32vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
 }
 
 .WhyQuarkCards{
@@ -281,16 +291,17 @@
   transform: scale(1);
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  height:460px;
-  width:300px;
-  max-width:400px;
-  min-width:300px;
-  margin-top: 10vh;
-  border-radius: 10px;
+  width: 22.5vw;
+  max-width: 22.5vw;
+  min-width: 22.5vw;
   background: white;
-  max-height: 460px;
-  min-height: 460px;
-  margin-left: 2vw;
+  height: 35vw;
+  max-height: 35vw;
+  min-height:35vw;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 2.5vw;
+  margin-bottom: 5vw;
 }
 
 .WhyQuarkCards:hover{
@@ -300,25 +311,41 @@
 }
 
 .WhyQuarks{
-	margin-top: 25vh;
-	margin-left: 5vw;
+	margin-top: 15vw;
 	width: 85vw;
+	margin-left: 7.5vw;
+	height:40vw;
 }
 
 .whyQuarkImages{
-	height:200px;
-	max-height:200px;
-	min-height:200px;
-  	width:300px;
+	height:15vw;
+	max-height:15vw;
+	min-height:15vw;
+  	width:22.5vw;
+  	max-width: 22.5vw;
+  	min-width: 22.5vw;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
 
 .WhyQwriting{
 	font-family: 'Source Serif Pro';
-	margin-top: -2vh;
-	font-size:14.3px;
-	height: 150px;
+	margin-top: -1vw;
+	font-size:1.15vw;
+}
+
+.TestimonialCards{
+  width: 22.5vw;
+  max-width: 22.5vw;
+  min-width: 22.5vw;
+  background: white;
+  height: 22.5vw;
+  max-height: 22.5vw;
+  min-height:22.5vw;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 2.5vw;
+  margin-bottom: 5vw;
 }
 
 .count1{
