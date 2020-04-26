@@ -153,6 +153,26 @@
 	position:absolute;
 }
 
+#navItem1submit{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 70vw;
+	position:absolute;
+}
+
+#navItem1submit:hover{
+	color:blue;
+}
+
+#navItems4submit{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:red;
+	margin-left: 70vw;
+	position:absolute;
+}
+
 #navItem2Home:hover{
 	color:blue;
 }
