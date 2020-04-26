@@ -75,6 +75,7 @@
     <div class="w3-dropdown-content w3-bar-block w3-border">
       <div id="FilterScience" class="Filters w3-bar-item w3-button w3-round">Science</div>
       <div id="FilterGK" class="Filters w3-bar-item w3-button w3-round">Gen Knowledge</div>
+      <div id="FilterShowAll" class="Filters w3-bar-item w3-button w3-round">Show All</div>
     </div>
   </div>
 </div>
@@ -330,6 +331,14 @@ function toggleFunction() {
         $('.SubGK').toggle();
         $('#FilterGK').css("background", "#33DAFF");
       }
+    }),
+
+      $('#FilterShowAll').click(function(){
+          countGk = 0; countScience = 0; 
+          $('#FilterGK').css("background", "white");
+          $('#FilterScience').css("background", "white");
+          $('.SubGK').show();
+          $('.SubScience').show();
     })
   });
 </script>
