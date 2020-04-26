@@ -291,54 +291,83 @@ function toggleFunction() {
  $(document).ready(function(){
     var countScience = 0;
     var countGk = 0;
+    var flagScience = true;
+    var flagGk = true;
+
     $('#FilterScience').click(function(){
       countScience++;
       if(countScience == 1) {
+        flagScience = true;
         $('#FilterScience').css("background", "#33DAFF");
         if(countGk == 0) {
           $('.SubGK').hide();
+          flagGk = false;
         }
         else {
-          $('.SubScience').toggle();
+          $('.SubScience').show();
         } 
       }
       else if(countScience % 2 == 0 && countScience>1) {
-          $('.SubScience').toggle();
+          flagScience = false;
+          $('.SubScience').hide();
           $('#FilterScience').css("background", "white");
+          if (flagScience == false && flagGk == false) {
+            flagScience = true;
+            flagGk = true;
+            countGk = 0; countScience = 0;
+            $('#FilterGK').css("background", "white");
+            $('#FilterScience').css("background", "white");
+            $('.SubGK').show();
+            $('.SubScience').show();
         }
+      }
       else if (countScience %2 != 0 && countScience>1){
-        $('.SubScience').toggle();
+        flagScience = true;
+        $('.SubScience').show();
         $('#FilterScience').css("background", "#33DAFF");
       }
-    }),
+  }),
 
     $('#FilterGK').click(function(){
       countGk++;
       if(countGk == 1) {
+        flagGk = true;
         $('#FilterGK').css("background", "#33DAFF");
         if(countScience == 0) {
+          flagScience = false;
           $('.SubScience').hide();
         }
         else {
-          $('.SubGK').toggle();
+          $('.SubGK').show();
         } 
       }
       else if(countGk % 2 == 0 && countGk>1) {
-          $('.SubGK').toggle();
+          flagGk = false;
+          $('.SubGK').hide();
           $('#FilterGK').css("background", "white");
+          if (flagScience == false && flagGk == false) {
+            countGk = 0; countScience = 0;
+            flagScience = true;
+            flagGk = true;
+            $('#FilterGK').css("background", "white");
+            $('#FilterScience').css("background", "white");
+            $('.SubGK').show();
+            $('.SubScience').show();
+          }
         }
       else if (countGk %2 != 0 && countGk>1){
-        $('.SubGK').toggle();
+        flagGk = true;
+        $('.SubGK').show();
         $('#FilterGK').css("background", "#33DAFF");
       }
-    }),
+  }),
 
-      $('#FilterShowAll').click(function(){
-          countGk = 0; countScience = 0; 
-          $('#FilterGK').css("background", "white");
-          $('#FilterScience').css("background", "white");
-          $('.SubGK').show();
-          $('.SubScience').show();
+    $('#FilterShowAll').click(function(){
+        countGk = 0; countScience = 0; 
+        $('#FilterGK').css("background", "white");
+        $('#FilterScience').css("background", "white");
+        $('.SubGK').show();
+        $('.SubScience').show();
     })
   });
 </script>
