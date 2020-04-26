@@ -52,7 +52,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <a href="#div1H" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
     <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
     <a href="#SubscriptionQuarks" class="navItems w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="#register" class="navItems w3-bar-item w3-hide-small" id="navItems4Quarks">Submit</a>
+    <a href="#contributeHeading" class="navItems w3-bar-item w3-hide-small submitBtn" id="navItems4Quarks">Submit</a>
   </div>
 
   </div>
@@ -213,7 +213,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 <div id="contributeDiv">
   <div class="w3-row">
       <div class="w3-container w3-half">
-         <img id="contributePic" src="images/submitQuarks1.jpeg">
+         <img id="contributePic" src="images/submitQuarks.png">
       </div>
       <div class="w3-container w3-half">
          <div id="contributeLine"> Be a part of an ever-growing community that's driving the way knowledge can be spread. </div>
@@ -282,6 +282,33 @@ $(document).ready(function(){
 });
 </script>
 
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".submitBtn").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
 <script>
   AOS.init();
