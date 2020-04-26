@@ -1,312 +1,591 @@
-<!DOCTYPE html>
-<html>
-<title>Quarks!</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Serif Pro">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="stylesDesktop.css">
-<!-- <link rel="stylesheet" href="QuarksmallPh.css">
-<link rel="stylesheet" href="QuarksNormalPh.css"> -->
-<link rel="stylesheet" href="QuarksLargePh.css">
-<!-- <link rel="stylesheet" href="QuarksmallPhNxt.css"> -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
- <meta property="og:url"           content="https://abhigyan1996.github.io/Quarks/index.html" />
- <meta property="og:type"          content="website" />
- <meta property="og:title"         content="Join Quarks" />
- <meta property="og:description"   content="And Refuel Your Curiosity" />
- <meta property="og:image"         content="images/quark1.jpg" />
+/* 600px and up, IPAD, Desktop */
 
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-<!-- Facebook Share -->
-  <script>
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Facebook Share -->
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
-
-<body class="w3-white">
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar" style="width:100vw; max-width:100vw; min-width:100vw;">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
-    <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
-    <div style="margin-top:3vh">
-    <a href="homePage.html" class="navItems w3-bar-item w3-hide-small" id="navItem1Quarks"> Home</a>
-    <div class="navItems w3-bar-item w3-hide-small" id="navItem2Quarks"> Quarks</div>
-    <a href="homePage.html#SubscriptionQuarks" class="navItems w3-bar-item w3-hide-small" id="navItems3Quarks">Subscribe</a>
-    <a href="submitQuarks.html" class="navItems w3-bar-item w3-hide-small" id="navItems4Quarks">Submit</a>
-  </div>
-
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#wait" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
-    <a href="#wait" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
-    <a href="#submitQuarks.html" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
-  </div>
-</div>
-
-
-<div class="w3-container w3-hide-small" style="position: fixed; margin-top: 0vw;">
-  <div class="w3-dropdown-hover">
-    <div class="w3-button w3-round w3-black" id="fltrQuarks">Filter Quarks</div>
-    <div class="w3-dropdown-content w3-bar-block w3-border">
-      <div id="FilterScience" class="w3-bar-item w3-button w3-round">Science</div>
-      <div id="FilterGK" class="w3-bar-item w3-button w3-round">Gen Knowledge</div>
-    </div>
-  </div>
-</div>
-
-<div class="OutQuarks">
-  <div class="Quarks w3-row">
-
-    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="electricEels">
-      <div class="w3-card QuarkCards">
-      <img class="quarkImages" src="images/electricEels.jpg">
-      <div class="w3-center QuarkTitle" id="titleElecEels">How electric eels produce electricity?</div>
-            <div class="writings" id="ElectricEelsTxt">The bodies of electric eels have electric organs that are made up of electrolytes. These organs are lined up and stacked allowing them the ability to store power, much like small batteries inside a torch. Hence, each cell adds to a potential difference and a current of ions can flow through them. Electric eels, with their electric ability can communicate, navigate and stun their preys. They can discharge upto 860 volts and one ampere of current.</div>
-      <div id="stripDiv">
-        <div class="QuarkBottomStrip"> </div>
-        <div class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div>
-          <div class="AuthorName"> Quark by Abhigyan </div>
-          <div class="DateOfQuark"> 22 April, 2020</div>
-          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#electricEels" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div> --> 
-        <i id="listenElecEel" class="listenBtn fas fa-headphones"></i>
-          
-      </div>
-    </div>
-    </div>
-  
-    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="Jellyfish">
-      <div class="w3-card QuarkCards">
-      <img class="quarkImages" src="images/jellyFish.jpg">
-      <div class="w3-center QuarkTitle" id="titleJellyFish">Is JellyFish really a Fish?</div>
-            <div id="JellyFishTxt" class="writings"> Jellyfish aren’t really fish but gelatinous zooplankton; composed of 95% water. The remaining 5% is structural proteins, muscles and nerve cells. They are made of a jelly-like material 'Mesoglea'. They got no brain, heart, bones or blood. They came 500 million years back, primitive to even dinosaurs. Some are even bioluminescent, producing their own light. Heard of Box jellyfish? The most venomous marine animals in the world! A type of jellyfish, Turritopsis Dohrnii is the only animal in the world that can reverse its lifecycle and hence called immortal.</div>
-      <div id="stripDiv">
-        <div class="QuarkBottomStrip"> </div>
-        <div class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div>
-          <div class="AuthorName"> Quark by Satabdi </div>
-          <div class="DateOfQuark"> 22 April, 2020</div>
-          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#Jellyfish" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-        <i id="listenJelFish" class="listenBtn fas fa-headphones"></i>
-      </div>
-    </div>
-    </div>
-  
-    <div  style="text-decoration: none" class="SubGK w3-container w3-half quarkHalf" id="happyPeopleCard">
-      <div class="w3-card QuarkCards">
-      <img class="quarkImages" src="images/happyPeople.jpg">
-      <div class="w3-center QuarkTitle" id="TitleHappyPeople">Which is the happiest country in the world?</div>
-            <div id="HappyPeopleTxt" class="writings">According to the World Happiness Report released by the United Nations on March 20, 2020, Finland has been ranked as the happiest country in the world for the third consecutive year followed by Denmark and Switzerland. Ranked at 144, India occupied the bottom ten spots of the report. The World Happiness Report is a survey which grades countries using the Gallup World poll and other factors such as levels of GDP, life expectancy, generosity, social support, freedom and corruption income.</div>
-      <div id="stripDiv">
-        <div class="QuarkBottomStrip"> </div>
-        <div class="w3-button GenKnowledgeTag w3-hover-white w3-blue w3-round"> GEN KNOWLEDGE </div>
-          <div class="AuthorName"> Quark by Harsh </div>
-          <div class="DateOfQuark"> 20 April, 2020</div>
-          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-        <i id="listenHappyPeople" class="listenBtn fas fa-headphones"></i>
-      </div>
-    </div>
-    </div>
-
-    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="LightningCard">
-      <div class="w3-card QuarkCards">
-      <img class="quarkImages" src="images/quark2.jpg">
-      <div class="w3-center QuarkTitle" id="TitleLightning">What causes Lightning?</div>
-            <div id="LightningTxt" class="writings">Colliding particles of water vapour and ice inside clouds create electrical charges. Heavier negative charged particles sink to the bottom of the cloud and positively charged particles accumulate at the top. When these electrical fields become large enough, a giant spark of electric discharge is created. This causes lightning. Most lightning occurs between clouds but a few occur between clouds and the earth. A flash of lightning contains up to 1 billion volts of electricity and can heat the surrounding air to temperatures 5 times hotter than the sun’s surface.</div>
-      <div id="stripDiv">
-        <div class="QuarkBottomStrip"> </div>
-        <div class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div>
-          <div class="AuthorName"> Quark by Angshuman </div>
-          <div class="DateOfQuark"> 19 April, 2020</div>
-          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-        <i id="listenLightning" class="listenBtn fas fa-headphones"></i>
-      </div>
-    </div>
-    </div>
-  
-    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="SkyBlueCard">
-      <div class="w3-card QuarkCards">
-      <img class="quarkImages" src="images/quark1.jpg">
-      <div class="w3-center QuarkTitle" id="titleSkyBlue">Why does the sky appear blue?</div>
-            <div id="SkyBlueTxt" class="writings">Sunlight is made of different colours of light which have different wavelengths. The atmosphere of the earth is composed of very small molecules of Nitrogen, Oxygen, Water Vapour, Carbon Dioxide, Argon and traces of other gases. These molecules scatter the shorter and higher-energy wavelengths of light more efficiently than other wavelengths. Though violet light is scattered more than blue light, our eyes respond more strongly to blue light and hence the sky appears blue.</div>
-      <div id="stripDiv">
-        <div class="QuarkBottomStrip"> </div>
-        <div class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div>
-          <div class="AuthorName"> Quark by Angshuman </div>
-          <div class="DateOfQuark"> 18 April, 2020</div><!-- 
-          <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#SkyBlueCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
-        <i id="listenSkyBlue" class="listenBtn fas fa-headphones"></i>
-      </div>
-    </div>
-    </div>  
-</div>
-</div>
-
-<script>
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-white", "");
-    }
+#QuarksLogo{
+	position:absolute;
+	margin-left:4vw;
+	height: 5vw;
+	width: 5vw;
 }
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
+#nameQuarks{
+	font-family: 'Quicksand';
+	font-size: 4vw;
+	text-decoration: none;
+	margin-left: 9vw;
 }
-</script>
+	
+#fltrQuarks{
+	font-family: 'Source Serif Pro';
+	font-size: 1.2vw;
+}
+
+.Quarks{
+	position: absolute;
+	background: white;
+	width:75vw;
+	margin-left: 12.5vw;
+}
+
+.quarkHalf {
+  height: 52.5vw;
+  max-height: 52.5vw;
+  min-height: 52.5vw;
+}
+
+.OutQuarks{
+	margin-top: 10vw;
+}
+
+.QuarkCards{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  width: 30vw;
+  max-width: 30vw;
+  min-width: 30vw;
+  background: white;
+  height: 44vw;
+  max-height: 44vw;
+  min-height:44vw;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 2.5vw;
+  margin-bottom: 5vw;
+}
 
 
-<!-- Voice read out -->
-<script>
- $(document).ready(function(){
-  if ('speechSynthesis' in window) {
-    $('#listenElecEel').click(function(){
-      var text1 = document.getElementById("titleElecEels").innerHTML;
-      var text2 = document.getElementById("ElectricEelsTxt").innerHTML;
-      var text = text1 + "..." + text2;
-      var msg = new SpeechSynthesisUtterance();
-      msg.rate = 0.875;
-      msg.pitch = 1;
-      msg.text = text;
-      speechSynthesis.speak(msg);
-    })
-  } 
-});
-</script>
-<!-- Voice read out end -->
+.QuarkCards:hover{
+ 	-webkit-transform: scale(1.05);
+ 	 -ms-transform: scale(1.05);
+ 	 transform: scale(1.05);
+}
 
-<!-- Voice read out -->
-<script>
- $(document).ready(function(){
-  if ('speechSynthesis' in window) {
-    $('#listenJelFish').click(function(){
-      var text1 = document.getElementById("titleJellyFish").innerHTML;
-      var text2 = document.getElementById("JellyFishTxt").innerHTML;
-      var text = text1 + "..." + text2;
-      var msg = new SpeechSynthesisUtterance();
-      msg.rate = 0.875;
-      msg.pitch = 1;
-      msg.text = text;
-      speechSynthesis.speak(msg);
-    })
-  } 
-});
-</script>
-<!-- Voice read out end -->
+.quarkImages{
+	height:18vw;
+	max-height:18vw;
+	min-height:18vw;
+  	width:30vw;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width: 30vw;
+	min-width: 30vw;
+}
 
-<!-- Voice read out -->
-<script>
- $(document).ready(function(){
-  if ('speechSynthesis' in window) {
-    $('#listenLightning').click(function(){
-      var text1 = document.getElementById("TitleLightning").innerHTML;
-      var text2 = document.getElementById("LightningTxt").innerHTML;
-      var text = text1 + "..." + text2;
-      var msg = new SpeechSynthesisUtterance();
-      msg.rate = 0.875;
-      msg.pitch = 1;
-      msg.text = text;
-      speechSynthesis.speak(msg);
-    })
-  } 
-});
-</script>
-<!-- Voice read out end -->
+.QuarkTitle{
+	font-weight: 900;
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	color: black;
+	background: white;
+	height:2vw;
+	max-height:2vw;
+	min-height: 2vw;
+	margin-top: 0.5vw;
+}
 
-<!-- Voice read out -->
-<script>
- $(document).ready(function(){
-  if ('speechSynthesis' in window) {
-    $('#listenSkyBlue').click(function(){
-      var text1 = document.getElementById("titleSkyBlue").innerHTML;
-      var text2 = document.getElementById("SkyBlueTxt").innerHTML;
-      var text = text1 + "..." +text2;
-      var msg = new SpeechSynthesisUtterance();
-      msg.rate = 0.875;
-      msg.pitch = 1;
-      msg.text = text;
-      speechSynthesis.speak(msg);
-    })
-  } 
-});
-</script>
+.writings{
+	font-family: 'Source Serif Pro';
+	font-size:1.1vw;
+	height: 22vw;
+	max-height:22vw;
+	min-height:22vw;
+	width:30vw;
+	min-width:30vw;
+	max-width:30vw;
+	background:white;
+	padding-left:1.5vw;
+	padding-right:1.5vw;
+	padding-top:1vw;
+}
 
-<script>
- $(document).ready(function(){
-  if ('speechSynthesis' in window) {
-    $('#listenHappyPeople').click(function(){
-      var text1 = document.getElementById("TitleHappyPeople").innerHTML;
-      var text2 = document.getElementById("HappyPeopleTxt").innerHTML;
-      var text = text1 + "..." +text2;
-      var msg = new SpeechSynthesisUtterance();
-      msg.rate = 0.875;
-      msg.pitch = 1;
-      msg.text = text;
-      speechSynthesis.speak(msg);
-    })
-  } 
-});
-</script>
+.QuarkBottomStrip{
+	background: #000000;
+	height: 4vw;
+	max-height:4vw;
+	min-height:4vw;
+	width:30vw;
+	max-width:30vw;
+	min-width:30vw;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top:-2vw;
+}
 
-<!-- Voice read out end -->
+.ScienceTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 23.75vw;
+	margin-top:-3.25vw;
+	font-size:1vw;
+	padding: 0.5vw;
+}
+
+.GenKnowledgeTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 19.25vw;
+	margin-top:-3.25vw;
+	font-size:1vw;
+	padding: 0.5vw;
+}
+
+.AuthorName{
+	font-family: 'Source Serif Pro';
+	font-size:1vw;
+	margin-top: -3.5vw;
+	position:absolute;
+	color:white;
+	margin-left: 1.25vw;
+
+}
+
+.DateOfQuark{
+	position:absolute;
+	color:white;
+	margin-top: -2vw;
+	margin-left: 1.25vw;
+	font-size:1vw;
+	font-family: 'Source Serif Pro';
+}
+
+.listenBtn{
+	position: absolute;
+	margin-left: 13.5vw;
+	font-size:2vw;
+	margin-top: -3.5vw;
+	color:white;
+}
+
+#navItem1Home{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:red;
+	margin-left: 70vw;
+	position:absolute;
+}
+
+#navItem1submit{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 70vw;
+	position:absolute;
+}
+
+#navItem1submit:hover{
+	color:blue;
+}
+
+#navItems4submit{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:red;
+	margin-left: 88vw;
+	position:absolute;
+}
+
+#navItem2Home:hover{
+	color:blue;
+}
+
+#navItem2Home{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 75vw;
+	position:absolute;
+	color:black;	
+}
 
 
-<!-- Filter for Quarks-->
-<script>
- $(document).ready(function(){
-    $('#FilterScience').click(function(){
-      $('.SubScience').show();
-      $('.SubGK').hide();
-    })
-});
-</script>
+#div1Home{
+	background: white;
+}
 
-<script>
- $(document).ready(function(){
-    $('#FilterGK').click(function(){
-      $('.SubScience').hide();
-      $('.SubGK').show();
-    })
-});
-</script>
+#div1H{
+	background: white;
+	margin-top: 10vw;
+	height: 40vw;
+
+}
+
+#joinQuoteHome{
+	margin-top: 6vw;
+	margin-left: 10vw;
+	font-family: 'Quicksand';
+	font-size: 3.15vw;
+	font-weight: 900; 
+	width:35vw;
+	max-width: 35vw;
+	min-width: 35vw;
+}
+
+#joinQuarksLineHome{
+	margin-left: 10vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	width: 35vw;
+	max-width: 35vw;
+	min-width: 35vw; 
+	margin-top: -2vw;
+}
+
+#homeAmoeba1{
+	height: 25vw;
+	width: 45vw;
+	margin-top: 5vw;
+}
+
+#homeAmoeba2{
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 15vh;
+	height: 470px;
+	width: 35vw;
+}
+
+#exploreQuarksHome{
+	margin-left: 2vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.2vw;
+	margin-top:3.5vw;
+}
+
+#subscribeQuarksHome{
+	margin-left: 10vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.2vw;
+	margin-top:3.5vw;
+}
+
+.navItems{
+	text-decoration: none;
+}
+
+#navItem1{
+	color:red;
+	margin-left: 40vw
+}
 
 
-<script>
-  AOS.init();
-</script>
+#navItem1Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 70vw;
+	position:absolute;
+}
+
+#navItem2Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 75vw;
+	position:absolute;
+	color:red;	
+}
+
+#navItems3Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 81vw;
+	position:absolute;
+}
+
+#navItems3Quarks:hover{
+	color:blue;
+}
+
+#navItems4Quarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 88vw;
+	position:absolute;	
+}
 
 
-</body>
+#navItems4Quarks:hover{
+	color:blue;
+}
+
+#WhyQuarksHome{
+	position:absolute;
+	margin-top: 15vw;
+	margin-left: 34vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+}
+
+#WhyQuarksMedHome{
+	position:absolute;
+	margin-top: 8vw;
+	margin-left: 32vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+}
+
+.WhyQuarkCards{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  width: 22.5vw;
+  max-width: 22.5vw;
+  min-width: 22.5vw;
+  background: white;
+  height: 35vw;
+  max-height: 35vw;
+  min-height:35vw;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 2.5vw;
+  margin-bottom: 5vw;
+}
+
+.WhyQuarkCards:hover{
+ -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.WhyQuarks{
+	margin-top: 15vw;
+	width: 85vw;
+	margin-left: 7.5vw;
+	height:40vw;
+}
+
+.whyQuarkImages{
+	height:15vw;
+	max-height:15vw;
+	min-height:15vw;
+  	width:22.5vw;
+  	max-width: 22.5vw;
+  	min-width: 22.5vw;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.WhyQwriting{
+	font-family: 'Source Serif Pro';
+	margin-top: -1vw;
+	font-size:1.15vw;
+}
+
+#QuarkSubsHome{
+	position:absolute;
+	margin-top: 5vw;
+	margin-left: 35vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+}
+
+.subImages{
+	position: relative;
+	height:22vw;
+	width:16vw; 
+}
+
+#subSciencePic{
+	margin-left: -1.25vw;
+}
+/*Adding 17.25 margin-left per image*/
+#subStoryPic{
+	margin-left: 16vw;
+	margin-top: -5.85vw; 
+}
+
+#subMathsPic{
+	margin-left: 33.25vw;
+	margin-top: -5.85vw; 
+}
+
+#subFinancePic{
+	margin-left: 50.5vw;
+	margin-top: -5.85vw;; 
+}
+
+#subEpicsPic{
+	margin-left: 67.75vw;
+	margin-top: -5.85vw; 
+}
+
+#subPsychologyPic{
+	margin-left: 85vw;
+	margin-top: -5.85vw; 
+}
+
+.subName{
+	position:relative;
+	font-family: 'Source Serif Pro';
+	font-size: 3.25vw;
+	color:white;
+}
+
+#subScienceTxt{
+	margin-top: -21vw;
+	margin-left: 0vw;
+}
+
+#subStoryTxt{
+	margin-top: -21vw;
+	margin-left: 19vw;
+}
+
+#subMathsTxt{
+	margin-top: -21vw;
+	margin-left: 36vw;
+}
+
+#subFinanceTxt{
+	margin-top: -21vw;
+	margin-left: 51.5vw;
+}
+
+#subEpicsTxt{
+	margin-top: -21vw;
+	margin-left: 71.5vw;
+}
+
+#subPsychologyTxt{
+	margin-top: -21vw;
+	margin-left: 87vw;
+}
+
+#subPsychologyTxt2{
+	margin-top: -1vw;
+	margin-left: 87vw;
+
+}
+
+.statsNum{
+	color: purple;
+	font-family: 'Source Serif Pro';
+	font-size: 5vw;
+}
+
+.statsName{
+	color: black;
+	font-family: 'Source Serif Pro';
+	font-size: 2vw;
+}
+
+.OutstatCards{
+	margin-top: 14vw;
+	margin-left: 4vw;
+}
+
+.StatisticsCards{
+	height:12vw;
+	width: 18vw; 
+	background: white;
+	border-radius: 10px;
+}
+
+#statDiv{
+	height: 35vw;
+	width: 100vw;
+	background: white
+}
+
+#contributeHeading{
+	margin-top: 0vw;
+	margin-left: 35vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+}
+
+#contributeDiv{
+	height:30vw;
+	background: white;
+}
+
+#contributePic{
+	margin-top: 5vw;
+	height:20vw;
+	width:40vw;
+	margin-left: 5vw;
+}
+
+#contributeLine{
+	margin-top: 3vw;
+	margin-left: 5vw;
+	margin-right:2vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+}
+
+#contributeBtn{
+	margin-top: 3vw;
+	margin-left: 5vw;
+}
+
+
+#SubmitHeading{
+	margin-top: 10vw;
+	margin-left: 26vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+	color: purple;
+}
+
+
+.TestimonialCards{
+  width: 22.5vw;
+  max-width: 22.5vw;
+  min-width: 22.5vw;
+  background: white;
+  height: 22.5vw;
+  max-height: 22.5vw;
+  min-height:22.5vw;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 2.5vw;
+  margin-bottom: 5vw;
+}
+
+.count1{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 30vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.count2{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 45vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.count3{
+	position:absolute;
+	font-family: 'Helvetica';
+	margin-top: 15vh;
+	margin-left: 60vw;
+	font-size:25px;
+	font-weight: 900;
+}
+
+/*#electricEels{
+	background: black
+}
+
+#Jellyfish{
+	background: orange
+}
+
+*/
