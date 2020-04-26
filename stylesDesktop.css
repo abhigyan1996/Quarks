@@ -431,6 +431,36 @@
 
 }
 
+.statsNum{
+	color: purple;
+	font-family: 'Source Serif Pro';
+	font-size: 5vw;
+}
+
+.statsName{
+	color: black;
+	font-family: 'Source Serif Pro';
+	font-size: 2vw;
+}
+
+.OutstatCards{
+	margin-top: 14vw;
+	margin-left: 4vw;
+}
+
+.StatisticsCards{
+	height:12vw;
+	width: 18vw; 
+	background: white;
+	border-radius: 10px;
+}
+
+#statDiv{
+	height: 35vw;
+	width: 100vw;
+	background: white
+}
+
 .TestimonialCards{
   width: 22.5vw;
   max-width: 22.5vw;
