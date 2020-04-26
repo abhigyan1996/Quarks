@@ -153,6 +153,10 @@
 	position:absolute;
 }
 
+#navItem2Home:hover{
+	color:blue;
+}
+
 #navItem2Home{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
@@ -231,9 +235,6 @@
 	margin-left: 40vw
 }
 
-.navItems:hover {
-	color:red;
-}
 
 #navItem1Quarks{
 	font-family: 'Source Serif Pro';
@@ -259,12 +260,21 @@
 	position:absolute;
 }
 
+#navItems3Quarks:hover{
+	color:blue;
+}
+
 #navItems4Quarks{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
 	color:black;
 	margin-left: 88vw;
 	position:absolute;	
+}
+
+
+#navItems4Quarks:hover{
+	color:blue;
 }
 
 #WhyQuarksHome{
@@ -332,6 +342,93 @@
 	font-family: 'Source Serif Pro';
 	margin-top: -1vw;
 	font-size:1.15vw;
+}
+
+#QuarkSubsHome{
+	position:absolute;
+	margin-top: 5vw;
+	margin-left: 35vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+}
+
+.subImages{
+	position: relative;
+	height:22vw;
+	width:16vw; 
+}
+
+#subSciencePic{
+	margin-left: -1.25vw;
+}
+/*Adding 17.25 margin-left per image*/
+#subStoryPic{
+	margin-left: 16vw;
+	margin-top: -5.85vw; 
+}
+
+#subMathsPic{
+	margin-left: 33.25vw;
+	margin-top: -5.85vw; 
+}
+
+#subFinancePic{
+	margin-left: 50.5vw;
+	margin-top: -5.85vw;; 
+}
+
+#subEpicsPic{
+	margin-left: 67.75vw;
+	margin-top: -5.85vw; 
+}
+
+#subPsychologyPic{
+	margin-left: 85vw;
+	margin-top: -5.85vw; 
+}
+
+.subName{
+	position:relative;
+	font-family: 'Source Serif Pro';
+	font-size: 3.25vw;
+	color:white;
+}
+
+#subScienceTxt{
+	margin-top: -21vw;
+	margin-left: 0vw;
+}
+
+#subStoryTxt{
+	margin-top: -21vw;
+	margin-left: 19vw;
+}
+
+#subMathsTxt{
+	margin-top: -21vw;
+	margin-left: 36vw;
+}
+
+#subFinanceTxt{
+	margin-top: -21vw;
+	margin-left: 51.5vw;
+}
+
+#subEpicsTxt{
+	margin-top: -21vw;
+	margin-left: 71.5vw;
+}
+
+#subPsychologyTxt{
+	margin-top: -21vw;
+	margin-left: 87vw;
+}
+
+#subPsychologyTxt2{
+	margin-top: -1vw;
+	margin-left: 87vw;
+
 }
 
 .TestimonialCards{
