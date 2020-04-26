@@ -211,7 +211,7 @@
 #joinQuarksLineHome{
 	margin-left: 10vw;
 	font-family: 'Source Serif Pro';
-	font-size: 1.2vw;
+	font-size: 1.25vw;
 	width: 35vw;
 	max-width: 35vw;
 	min-width: 35vw; 
@@ -502,7 +502,7 @@
 }
 
 #contributeLine{
-	margin-top: 5vw;
+	margin-top: 3vw;
 	margin-left: 5vw;
 	margin-right:2vw;
 	font-family: 'Source Serif Pro';
