@@ -461,6 +461,40 @@
 	background: white
 }
 
+#contributeHeading{
+	margin-top: 0vw;
+	margin-left: 35vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+
+}
+
+#contributeDiv{
+	height:30vw;
+	background: white;
+}
+
+#contributePic{
+	margin-top: 5vw;
+	height:20vw;
+	width:40vw;
+	margin-left: 5vw;
+}
+
+#contributeLine{
+	margin-top: 5vw;
+	margin-left: 5vw;
+	margin-right:2vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.75vw;
+}
+
+#contributeBtn{
+	margin-top: 3vw;
+	margin-left: 5vw;
+}
+
 .TestimonialCards{
   width: 22.5vw;
   max-width: 22.5vw;
