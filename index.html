@@ -69,10 +69,20 @@
 </div>
 
 
+<div class="w3-container w3-hide-small" style="position: fixed; margin-top: 0vw;">
+  <div class="w3-dropdown-hover">
+    <div class="w3-button w3-round w3-black" id="fltrQuarks">Filter Quarks</div>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <div id="FilterScience" class="w3-bar-item w3-button w3-round">Science</div>
+      <div id="FilterGK" class="w3-bar-item w3-button w3-round">Gen Knowledge</div>
+    </div>
+  </div>
+</div>
+
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
-    <div  style="text-decoration: none" class="w3-container w3-half quarkHalf" id="electricEels">
+    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="electricEels">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="images/electricEels.jpg">
       <div class="w3-center QuarkTitle" id="titleElecEels">How electric eels produce electricity?</div>
@@ -89,7 +99,7 @@
     </div>
     </div>
   
-    <div  style="text-decoration: none" class="w3-container w3-half quarkHalf" id="Jellyfish">
+    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="Jellyfish">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="images/jellyFish.jpg">
       <div class="w3-center QuarkTitle" id="titleJellyFish">Is JellyFish really a Fish?</div>
@@ -105,7 +115,7 @@
     </div>
     </div>
   
-    <div  style="text-decoration: none" class="w3-container w3-half quarkHalf" data-aos="fade-up" id="happyPeopleCard">
+    <div  style="text-decoration: none" class="SubGK w3-container w3-half quarkHalf" id="happyPeopleCard">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="images/happyPeople.jpg">
       <div class="w3-center QuarkTitle" id="TitleHappyPeople">Which is the happiest country in the world?</div>
@@ -121,7 +131,7 @@
     </div>
     </div>
 
-    <div  style="text-decoration: none" class="w3-container w3-half quarkHalf" data-aos="fade-up" id="LightningCard">
+    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="LightningCard">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="images/quark2.jpg">
       <div class="w3-center QuarkTitle" id="TitleLightning">What causes Lightning?</div>
@@ -137,7 +147,7 @@
     </div>
     </div>
   
-    <div  style="text-decoration: none" class="w3-container w3-half quarkHalf" data-aos="fade-up" id="SkyBlueCard">
+    <div  style="text-decoration: none" class="SubScience w3-container w3-half quarkHalf" id="SkyBlueCard">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="images/quark1.jpg">
       <div class="w3-center QuarkTitle" id="titleSkyBlue">Why does the sky appear blue?</div>
@@ -275,13 +285,23 @@ function toggleFunction() {
 
 
 <!-- Filter for Quarks-->
-<!-- <script>
+<script>
  $(document).ready(function(){
-    $('#LightningCard').click(function(){
-      $('#LightningCard').hide();
+    $('#FilterScience').click(function(){
+      $('.SubScience').show();
+      $('.SubGK').hide();
     })
 });
-</script> -->
+</script>
+
+<script>
+ $(document).ready(function(){
+    $('#FilterGK').click(function(){
+      $('.SubScience').hide();
+      $('.SubGK').show();
+    })
+});
+</script>
 
 
 <script>
