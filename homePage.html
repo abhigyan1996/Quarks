@@ -76,7 +76,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
         </p>
      </div>
      <div class="anim write2">
-     <a href="index.html"> <p id="subscribeQuarksHome" class="w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+     <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
      <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Explore Quarks</p></a>
      </div>
   </div>
@@ -226,7 +226,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
 <!-- Subscription here -->
 <div id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
-  <div class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
+  <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
     <iframe class="w3-center" style="height:35vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
@@ -309,6 +309,7 @@ $(document).ready(function(){
   });
 });
 </script>
+
 
 <script>
   AOS.init();
