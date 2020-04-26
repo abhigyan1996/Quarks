@@ -49,7 +49,7 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
+    <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNew.png"> </a> 
     <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
     <div style="margin-top:3vh">
     <a href="homePage.html" class="navItems w3-bar-item w3-hide-small" id="navItem1Quarks"> Home</a>
@@ -284,25 +284,55 @@ function toggleFunction() {
 <!-- Voice read out end -->
 
 
+
 <!-- Filter for Quarks-->
 <script>
  $(document).ready(function(){
+    var countScience = 0;
+    var countGk = 0;
     $('#FilterScience').click(function(){
-      $('.SubScience').show();
-      $('.SubGK').hide();
-    })
-});
-</script>
+      countScience++;
+      if(countScience == 1) {
+        $('#FilterScience').css("background", "#33DAFF");
+        if(countGk == 0) {
+          $('.SubGK').hide();
+        }
+        else {
+          $('.SubGK').toggle();
+        } 
+      }
+      else if(countScience % 2 == 0 && countScience>1) {
+          $('.SubScience').toggle();
+          $('#FilterScience').css("background", "white");
+        }
+      else if (countScience %2 != 0 && countScience>1){
+        $('.SubScience').toggle();
+        $('#FilterScience').css("background", "#33DAFF");
+      }
+    }),
 
-<script>
- $(document).ready(function(){
     $('#FilterGK').click(function(){
-      $('.SubScience').hide();
-      $('.SubGK').show();
+      countGk++;
+      if(countGk == 1) {
+        $('#FilterGK').css("background", "#33DAFF");
+        if(countScience == 0) {
+          $('.SubScience').hide();
+        }
+        else {
+          $('.SubGK').toggle();
+        } 
+      }
+      else if(countGk % 2 == 0 && countGk>1) {
+          $('.SubGK').toggle();
+          $('#FilterGK').css("background", "white");
+        }
+      else if (countGk %2 != 0 && countGk>1){
+        $('.SubGK').toggle();
+        $('#FilterGK').css("background", "#33DAFF");
+      }
     })
-});
+  });
 </script>
-
 
 <script>
   AOS.init();
