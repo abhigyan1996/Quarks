@@ -49,9 +49,9 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
     <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
     <div style="margin-top:3vh">
-    <a href="#about" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
+    <a href="#div1H" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
     <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
-    <a href="#subscribe" class="navItems w3-bar-item w3-hide-small" id="navItems3Quarks">Subscribe</a>
+    <a href="#SubscriptionQuarks" class="navItems w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
     <a href="#register" class="navItems w3-bar-item w3-hide-small" id="navItems4Quarks">Submit</a>
   </div>
 
@@ -60,7 +60,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
   <!-- Navbar on small screens -->
   <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
-    <a href="#subscribe" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="#SubscriptionQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
     <a href="#register" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
   </div>
 </div>
@@ -134,8 +134,49 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
   </div>
 </div>
 
-<div style="background: black; height:45vw; width:100vw; position: absolute">
-  <div class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw">
+<div id="QuarkSubsHome">
+      What Quarks are <span style="color:purple">TRENDING</span>?
+  </div>
+
+<div id="subjectScrollHor" style = "overflow-x: scroll; height:28vw; width: 100vw; background: white">
+    <div style="margin-left: 1vw;">
+      <div id="sub1" class="w3-container">
+        <img src="images/subjects/subScience.jpg" class="subImages" id="subSciencePic"> 
+        <div class="subName" id="subScienceTxt"> SCIENCE </div>
+      </div>
+
+       <div id="sub2" class="w3-container">
+        <img src="images/subjects/subStory.jpg" class="subImages" id="subStoryPic"> 
+        <div class="subName" id="subStoryTxt"> STORY </div>
+      </div>
+
+      <div id="sub3" class="w3-container">
+        <img src="images/subjects/subMaths.jpg" class="subImages" id="subMathsPic"> 
+        <div class="subName" id="subMathsTxt"> MATHS </div>
+      </div>
+
+      <div id="sub4" class="w3-container">
+        <img src="images/subjects/subFinance.jpg" class="subImages" id="subFinancePic"> 
+        <div class="subName" id="subFinanceTxt"> FINANCE </div>
+      </div>
+
+      <div id="sub5" class="w3-container">
+        <img src="images/subjects/subEpics.jpg" class="subImages" id="subEpicsPic"> 
+        <div class="subName" id="subEpicsTxt"> EPICS </div>
+      </div>
+
+      <div id="sub5" class="w3-container">
+        <img src="images/subjects/subPsychology.jpg" class="subImages" id="subPsychologyPic"> 
+        <div class="subName" id="subPsychologyTxt"> PSYCHO- </div>
+        <div class="subName" id="subPsychologyTxt2"> LOGY</div>
+      </div>
+</div> 
+</div>
+
+
+<!-- Subscription here -->
+<div id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
+  <div class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
     <iframe class="w3-center" style="height:35vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
@@ -165,7 +206,30 @@ function toggleFunction() {
 
 
 <script>
-  myShow = w3.slideshow(".nature", 1000);
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".homeSubscribe").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
 
 
