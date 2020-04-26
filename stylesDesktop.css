@@ -467,7 +467,6 @@
 	font-family: 'Quicksand';
 	font-size: 2.25vw;
 	font-weight: 900; 
-
 }
 
 #contributeDiv{
@@ -494,6 +493,17 @@
 	margin-top: 3vw;
 	margin-left: 5vw;
 }
+
+
+#SubmitHeading{
+	margin-top: 10vw;
+	margin-left: 26vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+	color: purple;
+}
+
 
 .TestimonialCards{
   width: 22.5vw;
