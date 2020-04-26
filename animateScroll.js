@@ -152,6 +152,15 @@ var _positions = [
       percent: 0.9, x: 0, y: -0.2
     }
   },
+  {
+    name: 'write4', 
+    start: {
+      percent: 0, x: 0, y: 0
+    },
+    end: {
+      percent: 0.9, x: 0, y: -0.15
+    }
+  },
 ]
 
 resize();
