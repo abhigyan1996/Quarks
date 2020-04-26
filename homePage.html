@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="stylesDesktop.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="QuarksmallPh.css">
+<link rel="stylesheet" href="QuarksmallPhNxt.css">
 <link rel="stylesheet" href="QuarksNormalPh.css">
 <link rel="stylesheet" href="QuarksLargePh.css">
  <meta property="og:url"           content="https://abhigyan1996.github.io/Quarks/homePage.html" />
@@ -23,6 +24,7 @@
  <meta property="og:image"         content="images/homeAmoeba.jpg" />
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -40,58 +42,78 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
+  <div class="w3-bar" id="myNavbar" style="width:100vw; max-width:100vw; min-width:100vw;">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#" class="w3-bar-item"> <img id="QuarksLogoHome" src="images/QuarksLogoNoBG.png"> </a> 
-    <a href="#" class="w3-bar-item" id="nameQuarksHome" class="w3-black"> Quarks </a>
+    <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNoBG.png"> </a> 
+    <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
     <div style="margin-top:3vh">
-    <a href="#about" class="navItems w3-bar-item w3-hide-small" id="navItem1"> Home</a>
-    <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2"> Quarks</a>
-    <a href="#subscribe" class="navItems w3-bar-item w3-hide-small" id="navItem3">Subscribe</a>
-    <a href="#register" class="navItems w3-bar-item w3-hide-small" id="navItem1">Register</a>
+    <a href="#about" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
+    <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
+    <a href="#subscribe" class="navItems w3-bar-item w3-hide-small" id="navItems3Quarks">Subscribe</a>
+    <a href="#register" class="navItems w3-bar-item w3-hide-small" id="navItems4Quarks">Submit</a>
   </div>
 
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Quarks</a>
-    <a href="#subscribe" class="w3-bar-item w3-button" onclick="toggleFunction()">Subscribe</a>
-    <a href="#register" class="w3-bar-item w3-button" onclick="toggleFunction()">Register</a>
+  <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
+    <a href="#subscribe" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="#register" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
   </div>
 </div>
 
 
-<div id="div1Home"> 
-  <img src="images/homeAmoebaOne.jpg" class="w3-animate-right" id="homeAmoeba1">
-  <div class="anim write1">
-    <p class="scroll2Home" id="joinQuoteHome"> Refuel Your Curiosity <br>In just <span style="color:purple">20 Seconds!!!</span> </p>
-    <p id="joinQuarksLineHome">
-    We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
-    </p>
-    </div>
-    <div class="anim write2">
-    <a href="index.html"> <p id="subscribeQuarksHome" class="w3-button w3-black w3-hover-purple w3-round">Subscribe Quarks</p></a>
-    <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-black w3-round">Explore Quarks</p></a>
-  </div>
+<div class="w3-row" id="div1H">
   
-  <p class="anim write3" id="WhyQuarksHome">
-     What makes our Quarks unique?
-  </p>
+  <div class="w3-half w3-container">
+     <div class="anim write1">
+        <p class="scroll2Home" id="joinQuoteHome"> Refuel Your Curiosity <br>In just <span style="color:purple">30 Seconds!!!</span> </p>
+        <p id="joinQuarksLineHome">
+        We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
+        </p>
+     </div>
+     <div class="anim write2">
+     <a href="index.html"> <p id="subscribeQuarksHome" class="w3-button w3-black w3-hover-grey w3-round">Subscribe Quarks</p></a>
+     <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-grey w3-round">Explore Quarks</p></a>
+     </div>
+  </div>
 
-  <ul id="QuarksList" class="WhyQuarks w3-row" style="list-style-type:none;" data-aos="fade-up">
-  <li  style="text-decoration: none;" class="w3-container w3-third">
+  <div class="w3-half w3-container" id="div1ImgH">
+     <img src="images/homeAmoebaOne.jpg" class="w3-animate-right" id="homeAmoeba1">
+  </div>
+
+</div>
+
+<!-- Only for laptop and phones -->
+ <div class="anim write3 w3-hide-medium" id="WhyQuarksHome">
+      What makes our Quarks <span style="color:purple">unique</span>?
+  </div>
+<!-- For tablets -->
+<div class="anim write4 w3-hide-large w3-hide-small" id="WhyQuarksMedHome">
+      What makes our Quarks <span style="color:purple">unique</span>?
+  </div>
+
+
+
+<div id="div1Home" > 
+ 
+
+<div id="QuarksList" class="WhyQuarks w3-row" data-aos="fade-up">
+  
+  <div  style="text-decoration: none;" class="w3-container w3-third">
       <div class="w3-card WhyQuarkCards">
         <img class="whyQuarkImages" src="images/ingredients.jpg">
         <p class="w3-center QuarkTitle">The Ingredients</p>
         <div class="w3-container w3-white">
           <p class="WhyQwriting"> We source the finest ingredients for your mind by bringing to you questions that would fascinate you. We curate the most interesting questions across different subject areas that would inspire the world of knowledge. Civilisation has always progressed by asking the right questions.</p>    
         </div>
-  </li>
+     </div>
+  </div>
 
-  <li class="w3-container w3-third quarkHalf">
+  <div class="w3-container w3-third quarkHalf">
     <div class="w3-card WhyQuarkCards">
       <img class="whyQuarkImages" src="images/recipe.jpeg">
       <p class="w3-center QuarkTitle">The Recipe</p>
@@ -99,46 +121,24 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
         <p class="WhyQwriting">Our experts design the perfect recipe for you by making the answers precise, engaging and relevant. We understand that your time is precious and the ocean of knowledge is never-ending. So, we simplify the content of each quark in the most consumable format.</p>    
       </div>
     </div>
-  </li>
+  </div>
 
-  <li class="w3-container w3-third quarkHalf">
+  <div class="w3-container w3-third quarkHalf">
   <div class="w3-card WhyQuarkCards">
       <img class="whyQuarkImages" src="images/garnishing.jpg">
       <p class="w3-center QuarkTitle">The Garnishing</p>
       <div class="w3-container w3-white">
         <p class="WhyQwriting">We add a layer of delight on each Quark with a sprinkle of our creativity. We bring back to you the nostalgia of your childhood curiosity and this indeed feels magical. And this is what makes each Quark ready for you - garnished to perfection.</p>    
       </div>
-    </li>  
-</ul>
-
-<div>
-  <p class="count1">4+ Quarks</p>
-  <p class="count2">3+ Writers</p>
-  <p class="count3">1+ Subjects</p>
-</div>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-  <div>
-    <p id="ingredientsHome">
-    <span style="font-weight: 900">The Ingredients: </span>  We source the finest ingredients for your mind by bringing to you questions that would fascinate you. We curate the most interesting questions across different subject areas that would inspire the world of knowledge. Human civilisation has always progressed by asking the right questions.
-    </p>
+    </div>  
   </div>
 </div>
 
-  <img src="images/homeAmoebaTwo.png" data-aos="fade-left" id="homeAmoeba2">
-
-
+<div style="background: white; height:40vw; width:100vw; position: absolute">
+  
+  <div>
+    <iframe style="height:35vw; width:90vw; margin-left: 5vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
 </div>
 
 <script>
@@ -146,7 +146,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
@@ -162,6 +162,11 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+</script>
+
+
+<script>
+  myShow = w3.slideshow(".nature", 1000);
 </script>
 
 
