@@ -116,6 +116,15 @@
 	padding: 1vw;
 }
 
+.GenKnowledgeTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 60vw;
+	margin-top:-10vw;
+	font-size:3.5vw;
+	padding: 1vw;
+}
+
 .AuthorName{
 	font-family: 'Source Serif Pro';
 	font-size:2.75vw;
