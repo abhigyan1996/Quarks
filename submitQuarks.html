@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Quarks Home Page</title>
+<title>Submit a Quark</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -49,11 +49,11 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoNew.png"> </a> 
     <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
     <div style="margin-top:3vh">
-    <a href="#div1H" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
+    <a href="homePage.html" class="navItems w3-bar-item w3-hide-small" id="navItem1submit"> Home</a>
     <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
-    <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="submitQuarks.html" class="navItems w3-bar-item w3-hide-small submitBtn" id="navItems4Quarks">Submit</a>
+    <a href="homePage.html#SubscriptionQuarks" class="w3-hide-medium navItems w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
+    <a href="homePage.html#SubscriptionQuarksTablet" class="w3-hide-large navItems w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
+    <div class="navItems w3-bar-item w3-hide-small" id="navItems4submit">Submit</div>
   </div>
 
   </div>
@@ -67,175 +67,16 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 </div>
 
 
-<div class="w3-row" id="div1H">
-  
-  <div class="w3-half w3-container">
-     <div class="anim write1">
-        <p class="scroll2Home" id="joinQuoteHome"> Refuel Your Curiosity <br>In just <span style="color:purple">30 SECONDS</span>!!!</p>
-        <p id="joinQuarksLineHome">
-        We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
-        </p>
-     </div>
-     <div class="anim write2">
-     <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="w3-hide-medium subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
-     <a href="#subscribeCardTablet"> <p id="subscribeQuarksHome" class="w3-hide-large w3-hide-small subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
-     <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Explore Quarks</p></a>
-     </div>
-  </div>
 
-  <div class="w3-half w3-container" id="div1ImgH">
-     <img src="images/homeAmoebaOne.jpg" class="w3-animate-right" id="homeAmoeba1">
-  </div>
 
+<div id="SubmitHeading">
+    Get on board. Let your thoughts fly with us!
 </div>
-
-<!-- Only for laptop and phones -->
- <div class="anim write3 w3-hide-medium" id="WhyQuarksHome">
-      What makes our Quarks <span style="color:purple">UNIQUE</span>?
-  </div>
-<!-- For tablets -->
-<div class="anim write4 w3-hide-large w3-hide-small" id="WhyQuarksMedHome">
-      What makes our Quarks <span style="color:purple">UNIQUE</span>?
-  </div>
-
-
-
-<div id="div1Home" > 
- 
-
-<div id="QuarksList" class="WhyQuarks w3-row" data-aos="fade-up">
-  
-  <div  style="text-decoration: none;" class="w3-container w3-third">
-      <div class="w3-card WhyQuarkCards">
-        <img class="whyQuarkImages" src="images/ingredients.jpg">
-        <p class="w3-center QuarkTitle">The Ingredients</p>
-        <div class="w3-container w3-white">
-          <p class="WhyQwriting"> We source the finest ingredients for your mind by bringing to you questions that would fascinate you. We curate the most interesting questions across different subject areas that would inspire the world of knowledge. Civilisation has always progressed by asking the right questions.</p>    
-        </div>
-     </div>
-  </div>
-
-  <div class="w3-container w3-third quarkHalf">
-    <div class="w3-card WhyQuarkCards">
-      <img class="whyQuarkImages" src="images/recipe.jpeg">
-      <p class="w3-center QuarkTitle">The Recipe</p>
-      <div class="w3-container w3-white">
-        <p class="WhyQwriting">Our experts design the perfect recipe for you by making the answers precise, engaging and relevant. We understand that your time is precious and the ocean of knowledge is never-ending. So, we simplify the content of each quark in the most consumable format.</p>    
-      </div>
-    </div>
-  </div>
-
-  <div class="w3-container w3-third quarkHalf">
-  <div class="w3-card WhyQuarkCards">
-      <img class="whyQuarkImages" src="images/garnishing.jpg">
-      <p class="w3-center QuarkTitle">The Garnishing</p>
-      <div class="w3-container w3-white">
-        <p class="WhyQwriting">We add a layer of delight on each Quark with a sprinkle of our creativity. We bring back to you the nostalgia of your childhood curiosity and this indeed feels magical. And this is what makes each Quark ready for you - garnished to perfection.</p>    
-      </div>
-    </div>  
-  </div>
-</div>
-
-<div id="QuarkSubsHome">
-      What Quarks are <span style="color:purple">TRENDING</span>?
-  </div>
-
-<div id="subjectScrollHor" style = "overflow-x: scroll; height:28vw; width: 100vw; background: white">
-    <div style="margin-left: 1vw;">
-      <div id="sub1" class="w3-container">
-        <img src="images/subjects/subScience.jpg" class="subImages" id="subSciencePic"> 
-        <div class="subName" id="subScienceTxt"> SCIENCE </div>
-      </div>
-
-       <div id="sub2" class="w3-container">
-        <img src="images/subjects/subStory.jpg" class="subImages" id="subStoryPic"> 
-        <div class="subName" id="subStoryTxt"> STORY </div>
-      </div>
-
-      <div id="sub3" class="w3-container">
-        <img src="images/subjects/subMaths.jpg" class="subImages" id="subMathsPic"> 
-        <div class="subName" id="subMathsTxt"> MATHS </div>
-      </div>
-
-      <div id="sub4" class="w3-container">
-        <img src="images/subjects/subFinance.jpg" class="subImages" id="subFinancePic"> 
-        <div class="subName" id="subFinanceTxt"> FINANCE </div>
-      </div>
-
-      <div id="sub5" class="w3-container">
-        <img src="images/subjects/subEpics.jpg" class="subImages" id="subEpicsPic"> 
-        <div class="subName" id="subEpicsTxt"> EPICS </div>
-      </div>
-
-      <div id="sub5" class="w3-container">
-        <img src="images/subjects/subPsychology.jpg" class="subImages" id="subPsychologyPic"> 
-        <div class="subName" id="subPsychologyTxt"> PSYCHO- </div>
-        <div class="subName" id="subPsychologyTxt2"> LOGY</div>
-      </div>
-</div> 
-</div>
-
-<div id="QuarkSubsHome">
-     The <span style="color:purple">JOURNEY </span>of Quarks so far...
-  </div>
-
-<div id="statDiv" class="w3-row">
-  <div class="OutstatCards">
-      <div class="w3-container w3-quarter">
-         <div class="w3-card StatisticsCards w3-center">
-           <div class="statsNum">6</div>
-           <div class="statsName"> Quarks </div>
-        </div>
-      </div>
-      <div class="w3-container w3-quarter">
-         <div class="w3-card StatisticsCards w3-center">
-           <div class="statsNum">4</div>
-           <div class="statsName"> Authors </div>
-        </div>
-      </div>
-      <div class="w3-container w3-quarter">
-         <div class="w3-card StatisticsCards w3-center">
-           <div class="statsNum">3</div>
-           <div class="statsName"> Topics </div>
-        </div>
-      </div>
-      <div class="w3-container w3-quarter">
-         <div class="w3-card StatisticsCards w3-center">
-           <div class="statsNum">5</div>
-           <div class="statsName"> Subscribers </div>
-        </div>
-      </div>
-  </div>
-</div>
-
-<div id="contributeHeading">
-     How can you <span style="color:purple">CONTRIBUTE</span>?
-</div>
-
-<div id="contributeDiv">
-  <div class="w3-row">
-      <div class="w3-container w3-half">
-         <img style="border-radius: 10px" id="contributePic" src="images/submitQuarksNew.png">
-      </div>
-      <div class="w3-container w3-half">
-         <div id="contributeLine"> Join us and be a part of this revolution. <br><br>  We are creating a world where we would change the way knowledge is digitally consumed. Our philosophy is to make content quick to read but hard to forget.<br><br> Contribute a few moments of your day to share your knowledge with millions of people. Get published on our platform and get viewers from around the globe.</div>
-         <a href="submitQuarks.html"> <div id="contributeBtn" class="w3-button w3-round w3-purple w3-hover-yellow"> Submit a Quark</div></a>
-      </div>
-  </div>
-</div>
-
-
 
 <!-- Subscription here -->
-<div class="w3-hide-medium" id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
-  <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
-    <iframe class="w3-center" style="height:35vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </div>
-</div>
-
-<div class="w3-hide-large w3-hide-small" id="SubscriptionQuarksTablet" style="background: black; height:90vw; width:100vw; position: absolute">
-  <div id="subscribeCardTablet" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
-    <iframe class="w3-center" style="height:80vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div id="SubscriptionQuarks" style="background: yellow; height:120vw; width:100vw; position: absolute; margin-top: 3vw">
+  <div class="w3-card w3-white" style="height:110vw; width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
+    <iframe class="w3-center" style="height:100vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLScVSFf93jjpv-xm3Wp_2TCc0GCypQUoa3-DetSMiG15Hmkw4A/viewform?embedded=true"frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
 
@@ -260,62 +101,6 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-</script>
-
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $(".homeSubscribe").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $(".submitBtn").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
 </script>
 
 
