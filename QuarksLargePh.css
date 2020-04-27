@@ -173,7 +173,6 @@
 	height:180vw;
 	max-height: 180vw;
 	min-height:180vw;
-	position:absolute;
 }
 	
 	
@@ -281,7 +280,6 @@
 	background: white
 	}
 #WhyQuarksHome{
-	position:absolute;
 	margin-top: 10vw;
 	margin-left: 8.5vw;
 	font-family: 'Quicksand';
@@ -290,18 +288,18 @@
 	min-width: 91.5vw;
 	max-width: 91.5vw;
 	font-weight: 900; 
-	background: red;
+	background: white;
 }
 
 #divOuterCards{
-	background: pink;
+	background: white;
 }
 
 .quarkThird{
   height: 165vw;
   max-height: 165vw;
   min-height: 165vw;	
-  background: #bbb;
+  background: white;
 }
 
 .WhyQuarkCards{
