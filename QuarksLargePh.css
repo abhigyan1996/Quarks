@@ -170,7 +170,9 @@
 /*STYLES FOR HOME PAGE OF QUARKS AND SUBMIT!*/
 #div1H{
 	background:yellow;
-	height:80vw
+	height:180vw;
+	max-height: 180vw;
+	min-height:180vw;
 }
 	
 	
