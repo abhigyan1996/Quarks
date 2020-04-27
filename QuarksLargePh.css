@@ -285,7 +285,7 @@
 }
 
 #divOuterCards{
-	margin-top: 140vw;
+	margin-top: 120vw;
 	background: pink;
 	position:absolute
 }
@@ -294,7 +294,7 @@
   height: 165vw;
   max-height: 165vw;
   min-height: 165vw;	
-  background: orange;
+  background: #bbb;
 }
 
 .WhyQuarkCards{
