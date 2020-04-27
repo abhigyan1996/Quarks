@@ -169,11 +169,10 @@
 
 /*STYLES FOR HOME PAGE OF QUARKS AND SUBMIT!*/
 #joinQuoteHome{
-	background: green;
 	margin-top: 20vw;
 	margin-left: 6vw;
 	font-family: 'Quicksand';
-	font-size: 6vw;
+	font-size: 6.75vw;
 	font-weight: 900; 
 	width: 80vw;
 	max-width: 80vw;
