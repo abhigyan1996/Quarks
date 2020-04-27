@@ -268,7 +268,9 @@
 #navItems4Quarks:hover{
 	color:blue;
 }
-
+#div1ImgH{
+	background: purple
+	}
 #WhyQuarksHome{
 	position:absolute;
 	margin-top: 135vw;
@@ -279,16 +281,19 @@
 	min-width: 91.5vw;
 	max-width: 91.5vw;
 	font-weight: 900; 
+	background: red;
 }
 
 #divOuterCards{
 	margin-top: 140vw;
+	background: pink;
 }
 
 .quarkThird{
   height: 165vw;
   max-height: 165vw;
   min-height: 165vw;	
+  background: orange;
 }
 
 .WhyQuarkCards{
@@ -315,7 +320,7 @@
 
 .WhyQuarks{
 	position: absolute;
-	background: white;
+	background: yellow;
 	width:100vw;
 	margin-left: 0vw;
 }
