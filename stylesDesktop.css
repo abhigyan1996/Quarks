@@ -87,6 +87,18 @@
 	margin-top: 0.5vw;
 }
 
+.whyQuarkTitle{
+	font-weight: 900;
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	color: black;
+	background: white;
+	height:2vw;
+	max-height:2vw;
+	min-height: 2vw;
+	margin-top: 0.5vw;
+}
+
 .writings{
 	font-family: 'Source Serif Pro';
 	font-size:1.1vw;
