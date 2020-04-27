@@ -271,7 +271,7 @@
 
 #WhyQuarksHome{
 	position:absolute;
-	margin-top: 180vw;
+	margin-top: 145vw;
 	margin-left: 10vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -299,7 +299,7 @@
   max-width: 95vw;
   min-width: 95vw;
   background: white;
-  margin-left: -2vw;
+  margin-left: -1.75vw;
   height: 150vw;
   max-height: 150vw;
   min-height:150vw;
