@@ -171,9 +171,9 @@
 #joinQuoteHome{
 	background: green;
 	margin-top: 20vw;
-	margin-left: 5vw;
+	margin-left: 6vw;
 	font-family: 'Quicksand';
-	font-size: 8vw;
+	font-size: 6vw;
 	font-weight: 900; 
 	width: 80vw;
 	max-width: 80vw;
@@ -181,7 +181,7 @@
 }
 
 #joinQuarksLineHome{
-	margin-left: 5vw;
+	margin-left: 6vw;
 	font-family: 'Source Serif Pro';
 	font-size: 4vw;
 	width: 80vw;
@@ -213,7 +213,7 @@
 }
 
 #subscribeQuarksHome{
-	margin-left: 5vw;
+	margin-left: 6vw;
 	font-family: 'Source Serif Pro';
 	font-size: 4vw;
 	margin-top:3.5vw;
