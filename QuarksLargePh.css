@@ -274,8 +274,8 @@
 	margin-top: 145vw;
 	margin-left: 10vw;
 	font-family: 'Quicksand';
-	font-size: 4.5vw;
-	width: 80vw;
+	font-size: 5vw;
+	width: 100vw;
 	font-weight: 900; 
 }
 
@@ -331,7 +331,7 @@
 
 .WhyQwriting{
 	font-family: 'Source Serif Pro';
-	font-size:4vw;
+	font-size:5vw;
 	height: 72.5vw;
 	max-height:72.5vw;
 	min-height:72.5vw;
