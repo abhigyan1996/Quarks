@@ -293,9 +293,8 @@
 }
 
 #divOuterCards{
-	margin-top: 10vw;
+	margin-top: 0vw;
 	background: pink;
-	position:absolute
 }
 
 .quarkThird{
