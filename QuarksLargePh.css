@@ -125,6 +125,14 @@
 	padding: 1vw;
 }
 
+.BusinessTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 73vw;
+	margin-top:-10vw;
+	font-size:3.5vw;
+	padding: 1vw;
+}
 .AuthorName{
 	font-family: 'Source Serif Pro';
 	font-size:2.75vw;
