@@ -51,7 +51,8 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <div style="margin-top:3vh">
     <a href="#div1H" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
     <a href="index.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
-    <a href="#SubscriptionQuarks" class="navItems w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
+    <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
+    <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
     <a href="submitQuarks.html" class="navItems w3-bar-item w3-hide-small submitBtn" id="navItems4Quarks">Submit</a>
   </div>
 
@@ -76,7 +77,8 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
         </p>
      </div>
      <div class="anim write2">
-     <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+     <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="w3-hide-medium subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+     <a href="#subscribeCardTablet"> <p id="subscribeQuarksHome" class="w3-hide-large w3-hide-small subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
      <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Explore Quarks</p></a>
      </div>
   </div>
@@ -213,7 +215,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 <div id="contributeDiv">
   <div class="w3-row">
       <div class="w3-container w3-half">
-         <img style="border-radius:10px" id="contributePic" src="images/submitQuarksNew.png">
+         <img id="contributePic" src="images/submitQuarksNew.png">
       </div>
       <div class="w3-container w3-half">
          <div id="contributeLine"> Join us and be a part of this revolution. <br><br>  We are creating a world where we would change the way knowledge is digitally consumed. Our philosophy is to make content quick to read but hard to forget.<br><br> Contribute a few moments of your day to share your knowledge with millions of people. Get published on our platform and get viewers from around the globe.</div>
@@ -231,8 +233,8 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
   </div>
 </div>
 
-<div class="w3-hide-large w3-hide-small" id="SubscriptionQuarks" style="background: black; height:90vw; width:100vw; position: absolute">
-  <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
+<div class="w3-hide-large w3-hide-small" id="SubscriptionQuarksTablet" style="background: black; height:90vw; width:100vw; position: absolute">
+  <div id="subscribeCardTablet" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
     <iframe class="w3-center" style="height:80vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
