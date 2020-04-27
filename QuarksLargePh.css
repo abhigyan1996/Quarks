@@ -170,7 +170,7 @@
 /*STYLES FOR HOME PAGE OF QUARKS AND SUBMIT!*/
 #joinQuoteHome{
 	margin-top: 20vw;
-	margin-left: 10vw;
+	margin-left: 5vw;
 	font-family: 'Quicksand';
 	font-size: 8vw;
 	font-weight: 900; 
@@ -180,7 +180,7 @@
 }
 
 #joinQuarksLineHome{
-	margin-left: 10vw;
+	margin-left: 5vw;
 	font-family: 'Source Serif Pro';
 	font-size: 4vw;
 	width: 80vw;
@@ -212,7 +212,7 @@
 }
 
 #subscribeQuarksHome{
-	margin-left: 10vw;
+	margin-left: 5vw;
 	font-family: 'Source Serif Pro';
 	font-size: 4vw;
 	margin-top:3.5vw;
