@@ -281,7 +281,7 @@
 	}
 #WhyQuarksHome{
 	position:absolute;
-	margin-top: 135vw;
+	margin-top: 10vw;
 	margin-left: 8.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -293,7 +293,7 @@
 }
 
 #divOuterCards{
-	margin-top: 150vw;
+	margin-top: 10vw;
 	background: pink;
 	position:absolute
 }
