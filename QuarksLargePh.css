@@ -272,10 +272,12 @@
 #WhyQuarksHome{
 	position:absolute;
 	margin-top: 135vw;
-	margin-left: 7.5vw;
+	margin-left: 8.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
-	width: 100vw;
+	width: 91.5vw;
+	min-width: 91.5vw;
+	max-width: 91.5vw;
 	font-weight: 900; 
 }
 
