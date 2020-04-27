@@ -271,7 +271,7 @@
 
 #WhyQuarksHome{
 	position:absolute;
-	margin-top: 145vw;
+	margin-top: 135vw;
 	margin-left: 7.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -280,13 +280,13 @@
 }
 
 #divOuterCards{
-	margin-top: 160vw;
+	margin-top: 140vw;
 }
 
 .quarkThird{
-  height: 185vw;
-  max-height: 185vw;
-  min-height: 185vw;	
+  height: 165vw;
+  max-height: 165vw;
+  min-height: 165vw;	
 }
 
 .WhyQuarkCards{
