@@ -173,6 +173,7 @@
 	height:180vw;
 	max-height: 180vw;
 	min-height:180vw;
+	position:absolute;
 }
 	
 	
@@ -293,8 +294,9 @@
 }
 
 #divOuterCards{
-	margin-top: 0vw;
+	margin-top: 180vw;
 	background: pink;
+	position:absolute;
 }
 
 .quarkThird{
