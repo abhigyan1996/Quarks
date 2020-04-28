@@ -60,9 +60,9 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
   <!-- Navbar on small screens -->
   <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
-    <a href="#SubscriptionQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
-    <a href="#register" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
+    <a href="index.html" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Quarks</a>
+    <a href="homePage.html#SubscriptionQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="submitQuarks.html" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
   </div>
 </div>
 
@@ -110,7 +110,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
       What makes our Quarks <span style="color:purple">UNIQUE</span>?
   </div> 
  
- <div class="w3-hide-large w3-hide-medium" style="width:100vw; height:480vw; background:white"> 
+ <div class="w3-hide-large w3-hide-medium" style="width:100vw; height:480vw; background:white;"> 
   <div class="w3-container">
     <div class="w3-card w3-hide-large w3-hide-medium HomeCards" style="margin-top:20vw">
         <img class="whyQuarkImages" src="images/ingredients.jpg">
@@ -247,7 +247,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
      How can you <span style="color:purple">CONTRIBUTE</span>?
 </div>
 
-<div id="contributeDiv">
+<div id="contributeDiv" class="w3-hide-small">
   <div class="w3-row">
       <div class="w3-container w3-half">
          <img style="border-radius: 10px" id="contributePic" src="images/submitQuarksNew.png">
@@ -259,10 +259,22 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
   </div>
 </div>
 
+<div id="contributeDiv" class="w3-hide-large w3-hide-medium">
+  <div class="w3-row">
+      <div class="w3-container w3-half">
+         <div id="contributeLine"> Join us and be a part of this revolution. <br><br>  We are creating a world where we would change the way knowledge is digitally consumed. Our philosophy is to make content quick to read but hard to forget.<br><br> Contribute a few moments of your day to share your knowledge with millions of people. Get published on our platform and get viewers from around the globe.</div>
+         <a href="submitQuarks.html"> <div id="contributeBtn" class="w3-button w3-round w3-purple w3-hover-yellow"> Submit a Quark</div></a>
+      </div>
+      <div class="w3-container w3-half">
+         <img style="border-radius: 10px" id="contributePic" src="images/submitQuarksNew.png">
+      </div>
+  </div>
+</div>
+
 
 
 <!-- Subscription here -->
-<div class="w3-hide-medium" id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
+<div class="w3-hide-medium w3-hide-small" id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
   <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
     <iframe class="w3-center" style="height:35vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
@@ -273,6 +285,13 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <iframe class="w3-center" style="height:80vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
+
+<div class="w3-hide-medium w3-hide-large" id="SubscriptionQuarks" style="background: black; height:115vw; width:100vw; position: absolute">
+  <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
+    <iframe class="w3-center" style="height:100vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</div>
+
 
 <script>
 // Change style of navbar on scroll
