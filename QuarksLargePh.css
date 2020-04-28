@@ -293,7 +293,8 @@
 .HomeCards{
 	margin-bottom:10vw;
 	margin-left: -2vw;
-	height:165vw;
+	height:145vw;
+	border-radius:10px
 }
 	
 #divOuterCards{
