@@ -279,7 +279,7 @@
 	background: white
 	}
 #WhyQuarksHome{
-	margin-top: 10vw;
+	margin-top: 0vw;
 	margin-left: 8.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -331,7 +331,6 @@
 
 .WhyQuarks{
 	position: absolute;
-	background: pink;
 	width:100vw;
 	margin-left: 0vw;
 }
@@ -352,7 +351,7 @@
 	font-family: 'Source Serif Pro';
 	font-size: 4.25vw;
 	color: black;
-	background: green;
+	background: white;
 	height:10vw;
 	max-height:10vw;
 	min-height: 10vw;
@@ -368,7 +367,7 @@
 	width:95vw;
 	min-width:95vw;
 	max-width:95vw;
-	background:blue;
+	background:white;
 	padding-left:1.5vw;
 	padding-right:1.5vw;
 	padding-top:0.5vw;
