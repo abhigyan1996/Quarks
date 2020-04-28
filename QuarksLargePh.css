@@ -378,12 +378,12 @@
 
 #QuarkSubsHome{
 	margin-top: 3vw;
-	margin-left: 4.5vw;
+	margin-left: 15vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
-	width: 91.5vw;
-	min-width: 91.5vw;
-	max-width: 91.5vw;
+	width: 85vw;
+	min-width: 85vw;
+	max-width: 85vw;
 	font-weight: 900; 
 }
 
@@ -392,6 +392,7 @@
 	height:70vw;
 	width: 100vw;
 	background: white;
+	margin-top: 15vw;
 }
 
 #SubLeft{
@@ -399,8 +400,8 @@
 }
 	
 #QuarkJourneyLine{
-	margin-top: 0vw;
-	margin-left: 3.5vw;
+	margin-top: 5vw;
+	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
 	width: 91.5vw;
@@ -491,31 +492,37 @@
 .statsNum{
 	color: purple;
 	font-family: 'Source Serif Pro';
-	font-size: 5vw;
+	font-size: 7vw;
 }
 
 .statsName{
 	color: black;
 	font-family: 'Source Serif Pro';
-	font-size: 2vw;
+	font-size: 3.5vw;
 }
 
 .OutstatCards{
-	margin-top: 14vw;
+	margin-top: 18vw;
 	margin-left: 4vw;
 }
 
 .StatisticsCards{
-	height:12vw;
-	width: 18vw; 
+	height:25vw;
+	width: 20vw; 
 	background: white;
 	border-radius: 10px;
 }
 
 #statDiv{
-	height: 35vw;
+	height: 85vw;
 	width: 100vw;
 	background: white
+}
+
+.cardStat{
+	width:40vw;
+	margin-bottom: 4vw;
+	margin-left: 7.5vw
 }
 
 #contributeHeading{
