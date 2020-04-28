@@ -189,7 +189,7 @@
 #joinQuarksLineHome{
 	margin-left: 6vw;
 	font-family: 'Source Serif Pro';
-	font-size: 4vw;
+	font-size: 5vw;
 	width: 80vw;
 	max-width: 80vw;
 	min-width: 80vw; 
@@ -275,11 +275,13 @@
 #navItems4Quarks:hover{
 	color:blue;
 }
+
 #div1ImgH{
 	background: white
 	}
+
 #WhyQuarksHome{
-	margin-top: 0vw;
+	margin-top: 8vw;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -352,7 +354,7 @@
 .whyQuarkTitle{
 	font-weight: 900;
 	font-family: 'Source Serif Pro';
-	font-size: 4.25vw;
+	font-size: 5vw;
 	color: black;
 	height:10vw;
 	max-height:10vw;
@@ -362,7 +364,7 @@
 	
 .WhyQwriting{
 	font-family: 'Source Serif Pro';
-	font-size:5vw;
+	font-size:4.5vw;
 	height: 72.5vw;
 	max-height:72.5vw;
 	min-height:72.5vw;
@@ -372,6 +374,7 @@
 	padding-left:1.5vw;
 	padding-right:1.5vw;
 	padding-top:0vw;
+	margin-top: -3vw;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
@@ -400,7 +403,7 @@
 }
 	
 #QuarkJourneyLine{
-	margin-top: 5vw;
+	margin-top: 4vw;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -507,16 +510,16 @@
 }
 
 .StatisticsCards{
-	height:25vw;
+	height:20vw;
 	width: 20vw; 
 	background: white;
 	border-radius: 10px;
 }
 
 #statDiv{
-	height: 85vw;
+	height: 65vw;
 	width: 100vw;
-	background: white
+	background: white;
 }
 
 .cardStat{
@@ -526,23 +529,24 @@
 }
 
 #contributeHeading{
-	margin-top: 0vw;
-	margin-left: 35vw;
+	margin-top: 5vw;
+	margin-left: 20vw;
 	font-family: 'Quicksand';
-	font-size: 2.25vw;
+	font-size: 5vw;
 	font-weight: 900; 
+	width: 80vw;
 }
 
 #contributeDiv{
-	height:30vw;
+	height:180vw;
 	background: white;
 }
 
 #contributePic{
-	margin-top: 5vw;
-	height:20vw;
-	width:35vw;
-	margin-left: 7vw;
+	margin-top: 10vw;
+	height:40vw;
+	width:70vw;
+	margin-left: 10vw;
 }
 
 #contributeLine{
@@ -550,12 +554,14 @@
 	margin-left: 5vw;
 	margin-right:2vw;
 	font-family: 'Source Serif Pro';
-	font-size: 1.25vw;
+	font-size: 5vw;
 }
 
 #contributeBtn{
-	margin-top: 3vw;
-	margin-left: 5vw;
+	margin-top: 5vw;
+	margin-left: 25vw;
+	font-family: 'Source Serif Pro';
+	font-size: 5vw;
 }
 
 
