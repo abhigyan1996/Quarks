@@ -294,7 +294,10 @@
 	margin-bottom:10vw;
 	margin-left: -2vw;
 	height:145vw;
-	border-radius:10px
+	border-radius:10px;
+	width:95vw;
+	min-width:95vw;
+	max-width:95vw;
 }
 	
 #divOuterCards{
