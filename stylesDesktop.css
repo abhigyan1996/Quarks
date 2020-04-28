@@ -411,6 +411,17 @@
 	font-weight: 900; 
 }
 
+#subjectScrollHor{
+	overflow-x: scroll;
+	height:28vw;
+	width: 100vw;
+	background: white
+}
+
+#SubLeft{
+	margin-left: 1vw;
+}
+
 .subImages{
 	position: relative;
 	height:22vw;
