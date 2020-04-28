@@ -350,7 +350,7 @@
 	font-family: 'Source Serif Pro';
 	font-size: 4.25vw;
 	color: black;
-	background: white;
+	background: green;
 	height:10vw;
 	max-height:10vw;
 	min-height: 10vw;
@@ -366,7 +366,7 @@
 	width:95vw;
 	min-width:95vw;
 	max-width:95vw;
-	background:white;
+	background:blue;
 	padding-left:1.5vw;
 	padding-right:1.5vw;
 	padding-top:0.5vw;
