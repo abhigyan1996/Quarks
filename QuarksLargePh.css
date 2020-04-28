@@ -386,6 +386,17 @@
 	max-width: 91.5vw;
 	font-weight: 900; 
 }
+
+#subjectScrollHor{
+	overflow-x: scroll;
+	height:70vw;
+	width: 100vw;
+	background: white
+}
+
+#SubLeft{
+	margin-left: 0.5vw;
+}
 	
 #QuarkJourneyLine{
 	margin-top: 0vw;
@@ -400,8 +411,8 @@
 
 .subImages{
 	position: relative;
-	height:22vw;
-	width:16vw; 
+	height:60vw;
+	width:44vw; 
 }
 
 #subSciencePic{
