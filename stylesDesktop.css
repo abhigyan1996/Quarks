@@ -404,8 +404,17 @@
 
 #QuarkSubsHome{
 	position:absolute;
-	margin-top: 5vw;
+	margin-top: 1.5vw;
 	margin-left: 35vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+}
+
+#QuarkJourneyLine{
+	position:absolute;
+	margin-top: 5vw;
+	margin-left: 35.5vw;
 	font-family: 'Quicksand';
 	font-size: 2.25vw;
 	font-weight: 900; 
@@ -415,7 +424,8 @@
 	overflow-x: scroll;
 	height:28vw;
 	width: 100vw;
-	background: white
+	background: white;
+	margin-top: 10vw;
 }
 
 #SubLeft{
