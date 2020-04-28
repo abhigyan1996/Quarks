@@ -391,7 +391,7 @@
 	overflow-x: scroll;
 	height:70vw;
 	width: 100vw;
-	background: pink;
+	background: white;
 }
 
 #SubLeft{
@@ -421,69 +421,69 @@
 /*Adding 17.25 margin-left per image*/
 #subStoryPic{
 	margin-left: 46.5vw;
-	margin-top: -22vw; 
+	margin-top: -43.80vw; 
 }
 
 #subMathsPic{
 	margin-left: 94.25vw;
-	margin-top: -22vw; 
+	margin-top: -43.80vw; 
 }
 
 #subFinancePic{
 	margin-left: 142vw;
-	margin-top: -22vw;; 
+	margin-top: -43.80vw; 
 }
 
 #subEpicsPic{
 	margin-left: 189.75vw;
-	margin-top: -22vw; 
+	margin-top: -43.80vw; 
 }
 
 #subPsychologyPic{
 	margin-left: 237.5vw;
-	margin-top: -22vw; 
+	margin-top: -43.80vw; 
 }
 
 .subName{
 	position:relative;
 	font-family: 'Source Serif Pro';
-	font-size: 3.25vw;
+	font-size: 7vw;
 	color:white;
 }
 
 #subScienceTxt{
-	margin-top: -21vw;
-	margin-left: 0vw;
+	margin-top: -60vw;
+	margin-left: 5vw;
 }
 
 #subStoryTxt{
-	margin-top: -21vw;
-	margin-left: 19vw;
+	margin-top: -27vw;
+	margin-left: 60vw;
 }
 
 #subMathsTxt{
-	margin-top: -21vw;
-	margin-left: 36vw;
+	margin-top: -27vw;
+	margin-left: 105vw;
 }
 
 #subFinanceTxt{
-	margin-top: -21vw;
-	margin-left: 51.5vw;
+	margin-top: -27vw;
+	margin-left: 150vw;
 }
 
 #subEpicsTxt{
-	margin-top: -21vw;
-	margin-left: 71.5vw;
+	margin-top: -27vw;
+	margin-left: 203vw;
 }
 
 #subPsychologyTxt{
-	margin-top: -21vw;
-	margin-left: 87vw;
+	margin-top: -27vw;
+	margin-left: 243vw;
 }
 
 #subPsychologyTxt2{
 	margin-top: -1vw;
-	margin-left: 87vw;
+	margin-left: 243vw;
 
 }
 
