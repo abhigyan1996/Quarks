@@ -4,9 +4,10 @@
 
 #QuarksLogo{
 	position:absolute;
-	margin-left: 2vw;
+	margin-left: 3vw;
 	height: 12vw;
 	width: 12vw;
+	margin-top:1vw;
 }
 
 #nameQuarks{
