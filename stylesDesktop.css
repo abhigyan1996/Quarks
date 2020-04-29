@@ -300,6 +300,9 @@
 	position:absolute;
 }
 
+#navItem1Quarks:hover{
+	color:blue;
+}
 #navItem2Quarks{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
