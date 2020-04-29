@@ -189,7 +189,7 @@
 #joinQuarksLineHome{
 	margin-left: 6vw;
 	font-family: 'Source Serif Pro';
-	font-size: 5vw;
+	font-size: 4.5vw;
 	width: 80vw;
 	max-width: 80vw;
 	min-width: 80vw; 
@@ -281,7 +281,7 @@
 	}
 
 #WhyQuarksHome{
-	margin-top: 13vw;
+	margin-top: 10vh;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -354,7 +354,7 @@
 .whyQuarkTitle{
 	font-weight: 900;
 	font-family: 'Source Serif Pro';
-	font-size: 5vw;
+	font-size: 4.5vw;
 	color: black;
 	height:10vw;
 	max-height:10vw;
@@ -380,14 +380,14 @@
 }
 
 #QuarkSubsHome{
-	margin-top: 7vw;
+	margin-top: 5vh;
 	margin-left: 15vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
 	width: 85vw;
 	min-width: 85vw;
 	max-width: 85vw;
-	font-weight: 900; 
+	font-weight: 1500; 
 }
 
 #subjectScrollHor{
@@ -397,9 +397,13 @@
 	background: white;
 	margin-top: 15vw;
 }
+
+#SubLeft{
+	margin-left: 0.5vw;
+}
 	
 #QuarkJourneyLine{
-	margin-top: 4vw;
+	margin-top: 5vh;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -540,24 +544,24 @@
 
 #contributePic{
 	margin-top: 10vw;
-	height:40vw;
-	width:70vw;
-	margin-left: 10vw;
+	height:60vw;
+	width:95vw;
+	margin-left: 5vw;
 }
 
 #contributeLine{
-	margin-top: 3vw;
+	margin-top: 4vh;
 	margin-left: 5vw;
 	margin-right:2vw;
 	font-family: 'Source Serif Pro';
-	font-size: 5vw;
+	font-size: 4.5vw;
 }
 
 #contributeBtn{
-	margin-top: 5vw;
+	margin-top: 4vh;
 	margin-left: 25vw;
 	font-family: 'Source Serif Pro';
-	font-size: 5vw;
+	font-size: 4.5vw;
 }
 
 
