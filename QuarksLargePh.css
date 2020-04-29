@@ -281,7 +281,7 @@
 	}
 
 #WhyQuarksHome{
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -289,7 +289,6 @@
 	min-width: 91.5vw;
 	max-width: 91.5vw;
 	font-weight: 900; 
-	background: white;
 }
 
 .HomeCards{
@@ -380,7 +379,7 @@
 }
 
 #QuarkSubsHome{
-	margin-top: 5vh;
+	margin-top: 3vh;
 	margin-left: 15vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -403,7 +402,7 @@
 }
 	
 #QuarkJourneyLine{
-	margin-top: 5vh;
+	margin-top: 3vh;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -416,7 +415,7 @@
 .subImages{
 	position: relative;
 	height:60vw;
-	width:44vw; 
+	width:40vw; 
 }
 
 #subSciencePic{
@@ -424,28 +423,28 @@
 }
 /*Adding 17.25 margin-left per image*/
 #subStoryPic{
-	margin-left: 46.5vw;
+	margin-left: 42.5vw;
 	margin-top: -43.80vw; 
 	height:93.5vw;
 }
 
 #subMathsPic{
-	margin-left: 94.25vw;
+	margin-left: 90.25vw;
 	margin-top: -43.80vw; 
 }
 
 #subFinancePic{
-	margin-left: 142vw;
+	margin-left: 138vw;
 	margin-top: -43.80vw; 
 }
 
 #subEpicsPic{
-	margin-left: 189.75vw;
+	margin-left: 185.75vw;
 	margin-top: -43.80vw; 
 }
 
 #subPsychologyPic{
-	margin-left: 237.5vw;
+	margin-left: 234.5vw;
 	margin-top: -43.80vw; 
 }
 
@@ -543,10 +542,10 @@
 }
 
 #contributePic{
-	margin-top: 10vw;
+	margin-top: 5vh;
 	height:60vw;
 	width:95vw;
-	margin-left: 5vw;
+	margin-left: 2.5vw;
 }
 
 #contributeLine{
