@@ -496,12 +496,14 @@
 
 #subEpicsTxt{
 	margin-top: -21vw;
-	margin-left: 71.5vw;
+	margin-left: 68vw;
+	font-size:2.5vw;
 }
 
 #subPsychologyTxt{
 	margin-top: -21vw;
-	margin-left: 87vw;
+	margin-left: 85.5vw;
+	font-size: 2.2vw;
 }
 
 #subPsychologyTxt2{
