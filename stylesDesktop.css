@@ -587,6 +587,28 @@
 	color: purple;
 }
 
+#SubmitQuarksdiv{
+	background: yellow;
+	height:120vw;
+	width:100vw;
+	position: absolute;
+	margin-top: 3vw
+}
+
+#SubmitQuarksOuter{
+	height:110vw;
+	width:90vw;
+	margin-left: 4vw;
+	border-radius: 10px;
+	margin-top: 5vw;
+}
+
+#SubmitQuarks{
+	height:100vw;
+	width:80vw;
+	margin-left: 5vw;
+	margin-top: 2vw
+}
 
 .TestimonialCards{
   width: 22.5vw;
