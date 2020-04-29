@@ -281,7 +281,7 @@
 	}
 
 #WhyQuarksHome{
-	margin-top: 5vh;
+	margin-top: 3vh;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -394,7 +394,7 @@
 	height:70vw;
 	width: 100vw;
 	background: white;
-	margin-top: 15vw;
+	margin-top: 10vh;
 }
 
 #SubLeft{
@@ -402,7 +402,7 @@
 }
 	
 #QuarkJourneyLine{
-	margin-top: 3vh;
+	margin-top: 2vh;
 	margin-left: 9.5vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -423,28 +423,28 @@
 }
 /*Adding 17.25 margin-left per image*/
 #subStoryPic{
-	margin-left: 42.5vw;
+	margin-left: 41.5vw;
 	margin-top: -43.80vw; 
 	height:93.5vw;
 }
 
 #subMathsPic{
-	margin-left: 90.25vw;
+	margin-left: 84.25vw;
 	margin-top: -43.80vw; 
 }
 
 #subFinancePic{
-	margin-left: 138vw;
+	margin-left: 127vw;
 	margin-top: -43.80vw; 
 }
 
 #subEpicsPic{
-	margin-left: 185.75vw;
+	margin-left: 169.75vw;
 	margin-top: -43.80vw; 
 }
 
 #subPsychologyPic{
-	margin-left: 234.5vw;
+	margin-left: 214.5vw;
 	margin-top: -43.80vw; 
 }
 
@@ -462,33 +462,29 @@
 
 #subStoryTxt{
 	margin-top: -27vw;
-	margin-left: 60vw;
+	margin-left: 52vw;
 }
 
 #subMathsTxt{
-	margin-top: -27vw;
-	margin-left: 105vw;
+	margin-top: -40vw;
+	margin-left: 92vw;
 }
 
 #subFinanceTxt{
-	margin-top: -27vw;
-	margin-left: 150vw;
+	margin-top: -60vw;
+	margin-left: 132vw;
 }
 
 #subEpicsTxt{
-	margin-top: -27vw;
-	margin-left: 203vw;
+	margin-top: -55vw;
+	margin-left: 175vw;
+	font-size: 5vw;
 }
 
 #subPsychologyTxt{
-	margin-top: -27vw;
-	margin-left: 243vw;
-}
-
-#subPsychologyTxt2{
-	margin-top: -1vw;
-	margin-left: 243vw;
-
+	margin-top: -60vw;
+	margin-left: 217vw;
+	font-size: 5vw;
 }
 
 .statsNum{
@@ -528,7 +524,7 @@
 }
 
 #contributeHeading{
-	margin-top: 5vw;
+	margin-top: 5vh;
 	margin-left: 20vw;
 	font-family: 'Quicksand';
 	font-size: 5vw;
@@ -545,7 +541,7 @@
 	margin-top: 5vh;
 	height:60vw;
 	width:95vw;
-	margin-left: 2.5vw;
+	margin-left: 0.5vw;
 }
 
 #contributeLine{
