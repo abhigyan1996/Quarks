@@ -569,6 +569,14 @@
 	color: purple;
 }
 
+#SubmitQuarksdiv{
+	background: yellow;
+	height:120vh;
+	width:100vw;
+	position: absolute;
+	margin-top: 3vw
+}
+
 #SubmitQuarksOuter{
 	height:110vh;
 	width:90vw;
