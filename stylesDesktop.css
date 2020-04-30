@@ -102,9 +102,9 @@
 .writings{
 	font-family: 'Source Serif Pro';
 	font-size:1.1vw;
-	height: 22vw;
-	max-height:22vw;
-	min-height:22vw;
+	height: 24vw;
+	max-height:24vw;
+	min-height:24vw;
 	width:30vw;
 	min-width:30vw;
 	max-width:30vw;
@@ -149,6 +149,15 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 23.25vw;
+	margin-top:-3.25vw;
+	font-size:1vw;
+	padding: 0.5vw;
+}
+
+.MythologyTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 21.5vw;
 	margin-top:-3.25vw;
 	font-size:1vw;
 	padding: 0.5vw;
@@ -303,12 +312,24 @@
 #navItem1Quarks:hover{
 	color:blue;
 }
+
 #navItem2Quarks{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
 	margin-left: 75vw;
 	position:absolute;
 	color:red;	
+}
+
+#navSubQuarks{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 75vw;
+	position:absolute;
+}
+
+#navSubQuarks:hover{
+	color:blue;
 }
 
 #navItems3Quarks{
