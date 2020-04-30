@@ -50,7 +50,7 @@
       <i class="fa fa-bars"></i>
     </a>
     <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="images/QuarksLogoFinal.png"> </a> 
-    <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> Quarks </a>
+    <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> QuarkX </a>
     <div style="margin-top:3vh">
     <a href="homePage.html" class="navItems w3-bar-item w3-hide-small" id="navItem1Quarks"> Home</a>
     <div class="navItems w3-bar-item w3-hide-small" id="navItem2Quarks"> Quarks</div>
@@ -83,6 +83,23 @@
  -->
 <div class="OutQuarks">
   <div class="Quarks w3-row">
+
+    <div  style="text-decoration: none" class="AllQuarks SubMythology w3-container w3-half quarkHalf" id="DronacharyaQuark">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="images/Dronacharya.jpg">
+      <div class="w3-center QuarkTitle" id="titleDronacharya">How did Dronacharya die??</div>
+            <div class="writings" id="DronacharyaTxt">In the battle of Kurukshetra, after the death of Bheeshma, Drona was the commander-in-chief of the Kauravas and is a quite fearless leader. His only weakness is his son Aswathama. So Krishna comes up with a plan to get rid of Drona. Bheem kills an elephant called Aswwatha and the next day in the battle, Yudishtar yells Aswathama Hatha Kunjaraha. He actually says the words  'Aswatha Hatha' in a loud voice and 'Kunjaraha' in a low volume that Drona couldn't hear. What that means is an elephant called Aswatha is murdered. Not knowing that Drona is distracted and that is when he gets killed.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="MythologyQuarks.html"><div class="w3-button MythologyTag w3-hover-white w3-blue w3-round"> MYTHOLOGY </div></a>
+          <div class="AuthorName"> Quark by Rohith </div>
+          <div class="DateOfQuark"> 29 April, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#electricEels" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div> --> 
+        <i id="listenDronacharya" class="listenBtn fas fa-headphones"></i>
+          
+      </div>
+    </div>
+    </div>
 
     <div  style="text-decoration: none" class="AllQuarks SubBusiness w3-container w3-half quarkHalf" id="profitableCompany">
       <div class="w3-card QuarkCards">
@@ -306,6 +323,23 @@ function toggleFunction() {
     $('#listenProfitCompany').click(function(){
       var text1 = document.getElementById("titleProfitCompany").innerHTML;
       var text2 = document.getElementById("ProfitCompanyTxt").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenDronacharya').click(function(){
+      var text1 = document.getElementById("titleDronacharya").innerHTML;
+      var text2 = document.getElementById("DronacharyaTxt").innerHTML;
       var text = text1 + "..." +text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
