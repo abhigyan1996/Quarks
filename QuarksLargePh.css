@@ -76,22 +76,21 @@
 	max-height:11vw;
 	min-height: 11vw;
 	margin-top: 1vw;
-	line-height: 96%;
 }
 
 .writings{
 	font-family: 'Source Serif Pro';
 	font-size:4vw;
-	height: 83.5vw;
-	max-height:83.5vw;
-	min-height:83.5vw;
+	height: 84vw;
+	max-height:84vw;
+	min-height:84vw;
 	width:95vw;
 	min-width:95vw;
 	max-width:95vw;
 	background:white;
 	padding-left:1.5vw;
 	padding-right:1.5vw;
-	padding-top:0.5vw;
+	padding-top:1vw;
 }
 
 .QuarkBottomStrip{
@@ -104,7 +103,7 @@
 	min-width:95vw;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	margin-top:-1vw;
+	margin-top:0vw;
 }
 
 .ScienceTag{
@@ -126,6 +125,15 @@
 }
 
 .BusinessTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 73vw;
+	margin-top:-10vw;
+	font-size:3.5vw;
+	padding: 1vw;
+}
+
+.MythologyTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 73vw;
