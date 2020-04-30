@@ -6,7 +6,7 @@
 	margin-left: 4vw;
 	height: 12.5vw;
 	width: 12.5vw;
-	margin-top:1vh;
+	margin-top:1.25vh;
 }
 
 #nameQuarks{
@@ -44,9 +44,9 @@
   min-width: 95vw;
   background: white;
   margin-left: -1.5vw;
-  height: 153vw;
-  max-height: 153vw;
-  min-height:153vw;
+  height: 160vw;
+  max-height: 160vw;
+  min-height:160vw;
 }
 
 .QuarkCards:hover{
